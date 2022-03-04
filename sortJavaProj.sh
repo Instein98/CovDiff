@@ -27,11 +27,13 @@ echo -n > $resultDir/listOfClients
 echo -n > $resultDir/tmpFile
 
 # gather the client projects in all json file
-for file in `ls $resultDir/*.json`;do
+for i in {1..10};do
+    file=$resultDir/$i.json
     cat $file | jq -r '.items[].full_name' >> $resultDir/tmpFile
 done
 
 while read -r clientName; do
+    echo Checking whether $clientName has pom.xml file...
     if isMavenProj $clientName; then
         echo $clientName >> $resultDir/listOfClients
     fi
