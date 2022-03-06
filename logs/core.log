@@ -1,0 +1,1007 @@
+Start com.fasterxml.jackson.core:jackson-core
+
+Processing OpenFeign@feign
+Cloning...
+/Users/yicheng/research/covDiff/clients/OpenFeign@feign
+OpenFeign@feign-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing mrniko@netty-socketio
+Cloning...
+/Users/yicheng/research/covDiff/clients/mrniko@netty-socketio
+mrniko@netty-socketio-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing Alluxio@alluxio
+Cloning...
+/Users/yicheng/research/covDiff/clients/Alluxio@alluxio
+Alluxio@alluxio-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        6 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./core/common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./core/client/hdfs/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./core/client/fs/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./shell/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./job/common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./job/client/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/Alluxio@alluxio-com.fasterxml.jackson.core@jackson-core.exec.
+Alluxio@alluxio-com.fasterxml.jackson.core@jackson-core.exec is generated successfully!!
+Dependency version resolving failed. Move to the next client
+
+Processing thingsboard@thingsboard
+Cloning...
+/Users/yicheng/research/covDiff/clients/thingsboard@thingsboard
+thingsboard@thingsboard-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing apache@activemq
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@activemq
+apache@activemq-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing eclipse-vertx@vert.x
+Cloning...
+/Users/yicheng/research/covDiff/clients/eclipse-vertx@vert.x
+eclipse-vertx@vert.x-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing OryxProject@oryx
+Cloning...
+/Users/yicheng/research/covDiff/clients/OryxProject@oryx
+OryxProject@oryx-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        9 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./app/oryx-app-api/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./app/oryx-app-mllib/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./app/oryx-app-common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./app/oryx-app-serving/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./app/oryx-app/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./framework/oryx-ml/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./framework/oryx-lambda/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./framework/oryx-common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./framework/oryx-lambda-serving/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/OryxProject@oryx/OryxProject@oryx-com.fasterxml.jackson.core@jackson-core.exec.
+OryxProject@oryx-com.fasterxml.jackson.core@jackson-core.exec is generated successfully!!
+OryxProject@oryx uses com.fasterxml.jackson.core:jackson-core version 2.12.4
+Version 2.12.4 corresponds to tag jackson-core-2.12.4
+Checking out to tag jackson-core-2.12.4
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/lib.exec.
+[INFO] Analyzing 117 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/client.exec.
+[INFO] Analyzing 110 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-core Client:OryxProject@oryx **********
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberInput.java:147
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserBase.java:606
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserBase.java:609
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserBase.java:612
+The second covers additional lines: com/fasterxml/jackson/core/JsonProcessingException.java:38
+The second covers additional lines: com/fasterxml/jackson/core/JsonProcessingException.java:39
+The second covers additional lines: com/fasterxml/jackson/core/JsonFactory.java:499
+The second covers additional lines: com/fasterxml/jackson/core/json/JsonWriteContext.java:197
+The second covers additional lines: com/fasterxml/jackson/core/util/TextBuffer.java:659
+The second covers additional lines: com/fasterxml/jackson/core/util/TextBuffer.java:444
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:393
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:394
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:395
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:396
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:399
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:402
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:404
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:76
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:77
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:78
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:79
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1077
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1078
+
+Processing alibaba@nacos
+Cloning...
+/Users/yicheng/research/covDiff/clients/alibaba@nacos
+alibaba@nacos-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found       11 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./core/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./plugin-default-impl/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./auth/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./plugin/auth/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./consistency/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./sys/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./address/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./api/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./client/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./console/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/alibaba@nacos/alibaba@nacos-com.fasterxml.jackson.core@jackson-core.exec.
+alibaba@nacos-com.fasterxml.jackson.core@jackson-core.exec is generated successfully!!
+alibaba@nacos uses com.fasterxml.jackson.core:jackson-core version 2.12.2
+Version 2.12.2 corresponds to tag jackson-core-2.12.2
+Checking out to tag jackson-core-2.12.2
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/lib.exec.
+[INFO] Analyzing 117 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/client.exec.
+[INFO] Analyzing 110 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-core Client:alibaba@nacos **********
+The second covers additional lines: com/fasterxml/jackson/core/JacksonException.java:18
+The second covers additional lines: com/fasterxml/jackson/core/JacksonException.java:19
+The second covers additional lines: com/fasterxml/jackson/core/JsonProcessingException.java:30
+The second covers additional lines: com/fasterxml/jackson/core/JsonProcessingException.java:31
+The second covers additional lines: com/fasterxml/jackson/core/util/ByteArrayBuilder.java:101
+The second covers additional lines: com/fasterxml/jackson/core/util/ByteArrayBuilder.java:102
+The second covers additional lines: com/fasterxml/jackson/core/Version.java:98
+The second covers additional lines: com/fasterxml/jackson/core/type/TypeReference.java:47
+The second covers additional lines: com/fasterxml/jackson/core/JsonFactory.java:499
+The second covers additional lines: com/fasterxml/jackson/core/util/DefaultPrettyPrinter.java:171
+The second covers additional lines: com/fasterxml/jackson/core/util/DefaultPrettyPrinter.java:172
+The second covers additional lines: com/fasterxml/jackson/core/json/JsonWriteContext.java:197
+The second covers additional lines: com/fasterxml/jackson/core/util/TextBuffer.java:659
+The second covers additional lines: com/fasterxml/jackson/core/util/TextBuffer.java:444
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:393
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:394
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:395
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:396
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:399
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:402
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:404
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:76
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:77
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:78
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:79
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:163
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:164
+
+Processing apache@servicecomb-pack
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@servicecomb-pack
+apache@servicecomb-pack-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found       12 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@servicecomb-pack/./omega/omega-format/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@servicecomb-pack/./omega/omega-connector/omega-connector-grpc/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@servicecomb-pack/./omega/omega-transaction/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@servicecomb-pack/./omega/omega-spring-tx/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@servicecomb-pack/./omega/omega-context/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@servicecomb-pack/./omega/omega-transport/omega-transport-servicecomb/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@servicecomb-pack/./omega/omega-transport/omega-transport-resttemplate/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@servicecomb-pack/./omega/omega-transport/omega-transport-dubbo/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@servicecomb-pack/./omega/omega-transport/omega-transport-feign/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@servicecomb-pack/./alpha/alpha-core/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@servicecomb-pack/./alpha/alpha-fsm/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@servicecomb-pack/./alpha/alpha-server/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/apache@servicecomb-pack/apache@servicecomb-pack-com.fasterxml.jackson.core@jackson-core.exec.
+apache@servicecomb-pack-com.fasterxml.jackson.core@jackson-core.exec is generated successfully!!
+apache@servicecomb-pack uses com.fasterxml.jackson.core:jackson-core version 2.13.1
+Version 2.13.1 corresponds to tag jackson-core-2.13.1
+Checking out to tag jackson-core-2.13.1
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/lib.exec.
+[INFO] Analyzing 117 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/client.exec.
+[INFO] Analyzing 113 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-core Client:apache@servicecomb-pack **********
+The second covers additional lines: com/fasterxml/jackson/core/Version.java:98
+The second covers additional lines: com/fasterxml/jackson/core/JsonFactory.java:674
+The second covers additional lines: com/fasterxml/jackson/core/JsonFactory.java:705
+The second covers additional lines: com/fasterxml/jackson/core/JsonFactory.java:706
+The second covers additional lines: com/fasterxml/jackson/core/JsonFactory.java:758
+The second covers additional lines: com/fasterxml/jackson/core/JsonFactory.java:499
+The second covers additional lines: com/fasterxml/jackson/core/util/DefaultPrettyPrinter.java:174
+The second covers additional lines: com/fasterxml/jackson/core/util/DefaultPrettyPrinter.java:175
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:347
+The second covers additional lines: com/fasterxml/jackson/core/json/JsonWriteContext.java:208
+The second covers additional lines: com/fasterxml/jackson/core/util/TextBuffer.java:659
+The second covers additional lines: com/fasterxml/jackson/core/util/TextBuffer.java:444
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:389
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:390
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:391
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:392
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:395
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:398
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:400
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:166
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:167
+
+Processing apache@hudi
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@hudi
+apache@hudi-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        5 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@hudi/./hudi-aws/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@hudi/./hudi-hadoop-mr/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@hudi/./hudi-timeline-service/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@hudi/./hudi-common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@hudi/./hudi-client/hudi-client-common/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/apache@hudi/apache@hudi-com.fasterxml.jackson.core@jackson-core.exec.
+apache@hudi-com.fasterxml.jackson.core@jackson-core.exec is generated successfully!!
+apache@hudi uses com.fasterxml.jackson.core:jackson-core version 2.6.7
+Version 2.6.7 corresponds to tag jackson-core-2.6.7
+Checking out to tag jackson-core-2.6.7
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/lib.exec.
+[INFO] Analyzing 116 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/client.exec.
+[INFO] Analyzing 83 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-core Client:apache@hudi **********
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:810
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:811
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:812
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:814
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:815
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:816
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:818
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:819
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:820
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:825
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:826
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:1323
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:1999
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:2000
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:2001
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:1051
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:1052
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:1834
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:2827
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:2828
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:3121
+The second covers additional lines: com/fasterxml/jackson/core/TreeCodec.java:11
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserBase.java:594
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserMinimalBase.java:101
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserMinimalBase.java:102
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserMinimalBase.java:118
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserMinimalBase.java:119
+The second covers additional lines: com/fasterxml/jackson/core/type/TypeReference.java:47
+The second covers additional lines: com/fasterxml/jackson/core/ObjectCodec.java:27
+The second covers additional lines: com/fasterxml/jackson/core/JsonFactory.java:387
+The second covers additional lines: com/fasterxml/jackson/core/util/DefaultPrettyPrinter.java:238
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:231
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:232
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:236
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:254
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:256
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:257
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:259
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:298
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:299
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:301
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:304
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:305
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:306
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:307
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:309
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:310
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:311
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:312
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:314
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:318
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:341
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:418
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:419
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:426
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:462
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:477
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:484
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:486
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:487
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:488
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:489
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:490
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:492
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:502
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:503
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:504
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:505
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:581
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:629
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:925
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:1619
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberOutput.java:296
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberOutput.java:297
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberOutput.java:298
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberOutput.java:305
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberOutput.java:309
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberOutput.java:310
+The second covers additional lines: com/fasterxml/jackson/core/util/TextBuffer.java:335
+The second covers additional lines: com/fasterxml/jackson/core/util/TextBuffer.java:438
+The second covers additional lines: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java:735
+The second covers additional lines: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java:737
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:1069
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:1070
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:1073
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:331
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:332
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:333
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:335
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:666
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:598
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:599
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:600
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:602
+The second covers additional lines: com/fasterxml/jackson/core/JsonToken.java:172
+The second covers additional lines: com/fasterxml/jackson/core/type/ResolvedType.java:59
+The second covers additional lines: com/fasterxml/jackson/core/type/ResolvedType.java:14
+
+Processing luxiaoxun@NettyRpc
+Cloning...
+/Users/yicheng/research/covDiff/clients/luxiaoxun@NettyRpc
+luxiaoxun@NettyRpc-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing wildfly@wildfly
+Cloning...
+/Users/yicheng/research/covDiff/clients/wildfly@wildfly
+wildfly@wildfly-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing Qihoo360@Quicksql
+Cloning...
+/Users/yicheng/research/covDiff/clients/Qihoo360@Quicksql
+Qihoo360@Quicksql-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing knowm@XChange
+Cloning...
+/Users/yicheng/research/covDiff/clients/knowm@XChange
+knowm@XChange-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found       97 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-openexchangerates/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinjar/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-koineks/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-btcc/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-truefx/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-independentreserve/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitflyer/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-hitbtc/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitbay/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitcoinaverage/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-binance/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-paribu/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinmarketcap/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-lgo/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-cobinhood/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-cryptofacilities/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-quoine/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-latoken/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-livecoin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-core/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-kraken/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-gateio/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-simulated/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinbase/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinmate/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-btctrade/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-serum/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-coinjar/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-deribit/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinegg/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitfinex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-bitmex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-dvchain/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-ccex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bity/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-lakebtc/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitstamp/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-okex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-itbit/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-okcoin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-core/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-ftx/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-binance/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bithumb/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-poloniex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitcoinium/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-mercadobitcoin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bankera/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinfloor/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-dsx/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-okcoin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-ascendex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-kuna/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-globitex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bibox/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitcointoyou/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-gateio/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-gemini/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-kraken/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-yobit/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-cryptopia/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-gemini-v2/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-fcoin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-btcturk/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coindeal/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitcoinde/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitmex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinbasepro/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-upbit/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-bitstamp/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coindirect/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-coinbasepro/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-cexio/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coingi/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-coinmate/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-enigma/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bleutrade/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-paymium/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-bitfinex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-lgo/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-tradeogre/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-koinim/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinone/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-lykke/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitz/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-dydx/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bittrex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-therock/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-ripple/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-cexio/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-cryptowatch/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-btcmarkets/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-blockchain/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-zaif/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-hitbtc/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitcoincore/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/knowm@XChange/knowm@XChange-com.fasterxml.jackson.core@jackson-core.exec.
+knowm@XChange-com.fasterxml.jackson.core@jackson-core.exec is generated successfully!!
+knowm@XChange uses com.fasterxml.jackson.core:jackson-core version 2.13.1
+Version 2.13.1 corresponds to tag jackson-core-2.13.1
+Checking out to tag jackson-core-2.13.1
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/lib.exec.
+[INFO] Analyzing 117 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/client.exec.
+[INFO] Analyzing 113 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-core Client:knowm@XChange **********
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:2995
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:3009
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:3010
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:3023
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:3025
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:3076
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:3140
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberInput.java:147
+The second covers additional lines: com/fasterxml/jackson/core/JacksonException.java:18
+The second covers additional lines: com/fasterxml/jackson/core/JacksonException.java:19
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserBase.java:615
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserBase.java:618
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserBase.java:621
+The second covers additional lines: com/fasterxml/jackson/core/JsonProcessingException.java:30
+The second covers additional lines: com/fasterxml/jackson/core/JsonProcessingException.java:31
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserMinimalBase.java:481
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserMinimalBase.java:487
+The second covers additional lines: com/fasterxml/jackson/core/base/GeneratorBase.java:232
+The second covers additional lines: com/fasterxml/jackson/core/type/TypeReference.java:47
+The second covers additional lines: com/fasterxml/jackson/core/util/JsonParserSequence.java:100
+The second covers additional lines: com/fasterxml/jackson/core/util/JsonParserSequence.java:103
+The second covers additional lines: com/fasterxml/jackson/core/JsonFactory.java:758
+The second covers additional lines: com/fasterxml/jackson/core/JsonFactory.java:499
+The second covers additional lines: com/fasterxml/jackson/core/util/DefaultPrettyPrinter.java:268
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:280
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:328
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:384
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:597
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberOutput.java:277
+The second covers additional lines: com/fasterxml/jackson/core/json/JsonWriteContext.java:208
+The second covers additional lines: com/fasterxml/jackson/core/util/TextBuffer.java:659
+The second covers additional lines: com/fasterxml/jackson/core/util/TextBuffer.java:444
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:71
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:72
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:73
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:74
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:77
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:78
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:79
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:80
+The second covers additional lines: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java:833
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:2365
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:2373
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:2277
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:760
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:761
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:762
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:764
+The second covers additional lines: com/fasterxml/jackson/core/util/JsonParserDelegate.java:145
+The second covers additional lines: com/fasterxml/jackson/core/util/JsonParserDelegate.java:36
+The second covers additional lines: com/fasterxml/jackson/core/util/JsonParserDelegate.java:103
+The second covers additional lines: com/fasterxml/jackson/core/util/JsonParserDelegate.java:124
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:166
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:167
+
+Processing shopizer-ecommerce@shopizer
+Cloning...
+/Users/yicheng/research/covDiff/clients/shopizer-ecommerce@shopizer
+shopizer-ecommerce@shopizer-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing shopizer-ecommerce@shopizer
+Cloning...
+/Users/yicheng/research/covDiff/clients/shopizer-ecommerce@shopizer
+shopizer-ecommerce@shopizer-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing modelmapper@modelmapper
+Cloning...
+/Users/yicheng/research/covDiff/clients/modelmapper@modelmapper
+modelmapper@modelmapper-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        8 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/./core/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/./extensions/gson/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/./extensions/jooq/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/./extensions/dagger/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/./extensions/guice/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/./extensions/protobuf/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/./extensions/spring/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/./extensions/jackson/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/modelmapper@modelmapper-com.fasterxml.jackson.core@jackson-core.exec.
+modelmapper@modelmapper-com.fasterxml.jackson.core@jackson-core.exec is generated successfully!!
+Dependency version resolving failed. Move to the next client
+
+Processing facebookarchive@nifty
+Cloning...
+/Users/yicheng/research/covDiff/clients/facebookarchive@nifty
+facebookarchive@nifty-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing liuyangming@ByteTCC
+Cloning...
+/Users/yicheng/research/covDiff/clients/liuyangming@ByteTCC
+liuyangming@ByteTCC-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing qunarcorp@bistoury
+Cloning...
+/Users/yicheng/research/covDiff/clients/qunarcorp@bistoury
+qunarcorp@bistoury-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        8 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/./bistoury-ui/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/./bistoury-instrument-client/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/./bistoury-agent-common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/./bistoury-remoting/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/./bistoury-agent-task/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/./bistoury-proxy/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/./bistoury-commands/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/./bistoury-decompiler-fernflower/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/qunarcorp@bistoury-com.fasterxml.jackson.core@jackson-core.exec.
+qunarcorp@bistoury-com.fasterxml.jackson.core@jackson-core.exec is generated successfully!!
+qunarcorp@bistoury uses com.fasterxml.jackson.core:jackson-core version 2.9.2
+Version 2.9.2 corresponds to tag jackson-core-2.9.2
+Checking out to tag jackson-core-2.9.2
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/lib.exec.
+[INFO] Analyzing 117 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/client.exec.
+[INFO] Analyzing 92 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-core Client:qunarcorp@bistoury **********
+The first coverage subsumes the second.
+
+Processing corona-warn-app@cwa-server
+Cloning...
+/Users/yicheng/research/covDiff/clients/corona-warn-app@cwa-server
+corona-warn-app@cwa-server-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing apache@dolphinscheduler
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@dolphinscheduler
+apache@dolphinscheduler-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found       35 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-zookeeper/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-server/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-script/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-pagerduty/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-http/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-feishu/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-dingtalk/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-email/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-slack/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-telegram/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-wechat/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-webexteams/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-server/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-hive/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-oracle/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-mysql/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-clickhouse/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-postgresql/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-db2/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-api/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-sqlserver/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-dao/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-log-server/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-task-plugin/dolphinscheduler-task-emr/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-task-plugin/dolphinscheduler-task-pigeon/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-task-plugin/dolphinscheduler-task-dataquality/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-task-plugin/dolphinscheduler-task-python/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-task-plugin/dolphinscheduler-task-api/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-data-quality/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-worker/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-api/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-spi/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-remote/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-service/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/apache@dolphinscheduler-com.fasterxml.jackson.core@jackson-core.exec.
+apache@dolphinscheduler-com.fasterxml.jackson.core@jackson-core.exec is generated successfully!!
+apache@dolphinscheduler uses com.fasterxml.jackson.core:jackson-core version 2.10.5
+Version 2.10.5 corresponds to tag jackson-core-2.10.5
+Checking out to tag jackson-core-2.10.5
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/lib.exec.
+[INFO] Analyzing 117 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/client.exec.
+[INFO] Analyzing 104 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-core Client:apache@dolphinscheduler **********
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:2116
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:2117
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:2118
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:2119
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:950
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:951
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:969
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:970
+The second covers additional lines: com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:971
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberInput.java:184
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberInput.java:187
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberInput.java:188
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberInput.java:189
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberInput.java:193
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberInput.java:194
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberInput.java:195
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberInput.java:196
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberInput.java:199
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberInput.java:203
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberInput.java:204
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberInput.java:206
+The second covers additional lines: com/fasterxml/jackson/core/io/NumberInput.java:215
+The second covers additional lines: com/fasterxml/jackson/core/JsonProcessingException.java:30
+The second covers additional lines: com/fasterxml/jackson/core/JsonProcessingException.java:31
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserMinimalBase.java:194
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserMinimalBase.java:195
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserMinimalBase.java:211
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserMinimalBase.java:212
+The second covers additional lines: com/fasterxml/jackson/core/Version.java:85
+The second covers additional lines: com/fasterxml/jackson/core/type/TypeReference.java:47
+The second covers additional lines: com/fasterxml/jackson/core/JsonFactory.java:477
+The second covers additional lines: com/fasterxml/jackson/core/util/DefaultPrettyPrinter.java:171
+The second covers additional lines: com/fasterxml/jackson/core/util/DefaultPrettyPrinter.java:172
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:220
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:221
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:232
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:233
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:234
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:237
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:238
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:590
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:1021
+The second covers additional lines: com/fasterxml/jackson/core/json/JsonWriteContext.java:178
+The second covers additional lines: com/fasterxml/jackson/core/json/JsonWriteContext.java:99
+The second covers additional lines: com/fasterxml/jackson/core/json/JsonWriteContext.java:100
+The second covers additional lines: com/fasterxml/jackson/core/json/JsonWriteContext.java:101
+The second covers additional lines: com/fasterxml/jackson/core/json/JsonWriteContext.java:102
+The second covers additional lines: com/fasterxml/jackson/core/json/JsonWriteContext.java:103
+The second covers additional lines: com/fasterxml/jackson/core/json/JsonWriteContext.java:104
+The second covers additional lines: com/fasterxml/jackson/core/json/JsonWriteContext.java:105
+The second covers additional lines: com/fasterxml/jackson/core/util/TextBuffer.java:589
+The second covers additional lines: com/fasterxml/jackson/core/util/TextBuffer.java:405
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:378
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:379
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:380
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:381
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:384
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:387
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:389
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:53
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:54
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:55
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:56
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:61
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:62
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:63
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:64
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1540
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1541
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1556
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1563
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1470
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1472
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1473
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1480
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1481
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1483
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1485
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1490
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1502
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1503
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1504
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1532
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1534
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:1535
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:34
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:163
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:164
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:40
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:76
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:48
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:182
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:183
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:184
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:185
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:186
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:60
+The second covers additional lines: com/fasterxml/jackson/core/type/WritableTypeId.java:92
+
+Processing spring-projects@spring-data-elasticsearch
+Cloning...
+/Users/yicheng/research/covDiff/clients/spring-projects@spring-data-elasticsearch
+spring-projects@spring-data-elasticsearch-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing dearbinge@dubbo-spring-boot-mybatis-redis
+Cloning...
+/Users/yicheng/research/covDiff/clients/dearbinge@dubbo-spring-boot-mybatis-redis
+dearbinge@dubbo-spring-boot-mybatis-redis-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing abel533@MyBatis-Spring-Boot
+Cloning...
+/Users/yicheng/research/covDiff/clients/abel533@MyBatis-Spring-Boot
+abel533@MyBatis-Spring-Boot-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing apache@curator
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@curator
+apache@curator-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        4 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@curator/./curator-client/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@curator/./curator-test/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@curator/./curator-framework/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@curator/./curator-recipes/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/apache@curator/apache@curator-com.fasterxml.jackson.core@jackson-core.exec.
+apache@curator-com.fasterxml.jackson.core@jackson-core.exec is generated successfully!!
+Dependency version resolving failed. Move to the next client
+
+Processing ninjaframework@ninja
+Cloning...
+/Users/yicheng/research/covDiff/clients/ninjaframework@ninja
+ninjaframework@ninja-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found       13 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-metrics-graphite/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-standalone/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-maven-plugin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-db-classic/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-servlet-integration-test/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-test-utilities/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-servlet-jpa-blog-integration-test/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-core/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-jaxy-routes/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-metrics/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-postoffice/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-servlet/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-websockets-jsr356/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/ninjaframework@ninja-com.fasterxml.jackson.core@jackson-core.exec.
+ninjaframework@ninja-com.fasterxml.jackson.core@jackson-core.exec is generated successfully!!
+ninjaframework@ninja uses com.fasterxml.jackson.core:jackson-core version 2.12.2
+Version 2.12.2 corresponds to tag jackson-core-2.12.2
+Checking out to tag jackson-core-2.12.2
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/lib.exec.
+[INFO] Analyzing 117 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/client.exec.
+[INFO] Analyzing 110 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-core Client:ninjaframework@ninja **********
+The second covers additional lines: com/fasterxml/jackson/core/JacksonException.java:18
+The second covers additional lines: com/fasterxml/jackson/core/JacksonException.java:19
+The second covers additional lines: com/fasterxml/jackson/core/exc/StreamReadException.java:33
+The second covers additional lines: com/fasterxml/jackson/core/exc/StreamReadException.java:34
+The second covers additional lines: com/fasterxml/jackson/core/exc/StreamReadException.java:35
+The second covers additional lines: com/fasterxml/jackson/core/JsonProcessingException.java:30
+The second covers additional lines: com/fasterxml/jackson/core/JsonProcessingException.java:31
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserMinimalBase.java:477
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserMinimalBase.java:483
+The second covers additional lines: com/fasterxml/jackson/core/Version.java:98
+The second covers additional lines: com/fasterxml/jackson/core/JsonFactory.java:499
+The second covers additional lines: com/fasterxml/jackson/core/util/DefaultPrettyPrinter.java:265
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:282
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:330
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:388
+The second covers additional lines: com/fasterxml/jackson/core/json/JsonWriteContext.java:197
+The second covers additional lines: com/fasterxml/jackson/core/util/TextBuffer.java:659
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:393
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:394
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:395
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:396
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:399
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:402
+The second covers additional lines: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java:404
+The second covers additional lines: com/fasterxml/jackson/core/JsonParseException.java:46
+The second covers additional lines: com/fasterxml/jackson/core/JsonParseException.java:47
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:463
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:464
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:465
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:467
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:986
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:926
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:927
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:928
+The second covers additional lines: com/fasterxml/jackson/core/json/JsonGeneratorImpl.java:183
+The second covers additional lines: com/fasterxml/jackson/core/json/JsonGeneratorImpl.java:196
+
+Processing crossoverJie@SSM
+Cloning...
+/Users/yicheng/research/covDiff/clients/crossoverJie@SSM
+crossoverJie@SSM-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing qunarcorp@qmq
+Cloning...
+/Users/yicheng/research/covDiff/clients/qunarcorp@qmq
+qunarcorp@qmq-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        4 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@qmq/./qmq-common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@qmq/./qmq-delay-server/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@qmq/./qmq-client/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@qmq/./qmq-server/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/qunarcorp@qmq/qunarcorp@qmq-com.fasterxml.jackson.core@jackson-core.exec.
+qunarcorp@qmq-com.fasterxml.jackson.core@jackson-core.exec is generated successfully!!
+Dependency version resolving failed. Move to the next client
+
+Processing apache@iotdb
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@iotdb
+apache@iotdb-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing tonikelope@megabasterd
+Cloning...
+/Users/yicheng/research/covDiff/clients/tonikelope@megabasterd
+tonikelope@megabasterd-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing thinkaurelius@titan
+Cloning...
+/Users/yicheng/research/covDiff/clients/thinkaurelius@titan
+thinkaurelius@titan-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing swagger-api@swagger-core
+Cloning...
+/Users/yicheng/research/covDiff/clients/swagger-api@swagger-core
+swagger-api@swagger-core-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        4 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/swagger-api@swagger-core/./modules/swagger-integration/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/swagger-api@swagger-core/./modules/swagger-jaxrs2/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/swagger-api@swagger-core/./modules/swagger-maven-plugin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/swagger-api@swagger-core/./modules/swagger-core/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/swagger-api@swagger-core/swagger-api@swagger-core-com.fasterxml.jackson.core@jackson-core.exec.
+swagger-api@swagger-core-com.fasterxml.jackson.core@jackson-core.exec is generated successfully!!
+swagger-api@swagger-core uses com.fasterxml.jackson.core:jackson-core version 2.12.1
+Version 2.12.1 corresponds to tag jackson-core-2.12.1
+Checking out to tag jackson-core-2.12.1
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/lib.exec.
+[INFO] Analyzing 117 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-core/comparison/client.exec.
+[INFO] Analyzing 110 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-core Client:swagger-api@swagger-core **********
+The second covers additional lines: com/fasterxml/jackson/core/JacksonException.java:18
+The second covers additional lines: com/fasterxml/jackson/core/JacksonException.java:19
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserBase.java:606
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserBase.java:609
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserBase.java:612
+The second covers additional lines: com/fasterxml/jackson/core/JsonProcessingException.java:30
+The second covers additional lines: com/fasterxml/jackson/core/JsonProcessingException.java:31
+The second covers additional lines: com/fasterxml/jackson/core/base/ParserMinimalBase.java:477
+The second covers additional lines: com/fasterxml/jackson/core/Version.java:98
+The second covers additional lines: com/fasterxml/jackson/core/io/SegmentedStringWriter.java:64
+The second covers additional lines: com/fasterxml/jackson/core/io/SegmentedStringWriter.java:67
+The second covers additional lines: com/fasterxml/jackson/core/base/GeneratorBase.java:294
+The second covers additional lines: com/fasterxml/jackson/core/base/GeneratorBase.java:295
+The second covers additional lines: com/fasterxml/jackson/core/base/GeneratorBase.java:296
+The second covers additional lines: com/fasterxml/jackson/core/base/GeneratorBase.java:298
+The second covers additional lines: com/fasterxml/jackson/core/base/GeneratorBase.java:231
+The second covers additional lines: com/fasterxml/jackson/core/JsonFactory.java:499
+The second covers additional lines: com/fasterxml/jackson/core/util/DefaultPrettyPrinter.java:265
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:282
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:330
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:377
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:388
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:395
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:400
+The second covers additional lines: com/fasterxml/jackson/core/json/WriterBasedJsonGenerator.java:606
+The second covers additional lines: com/fasterxml/jackson/core/json/JsonWriteContext.java:197
+The second covers additional lines: com/fasterxml/jackson/core/util/TextBuffer.java:659
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:76
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:77
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:78
+The second covers additional lines: com/fasterxml/jackson/core/JsonStreamContext.java:79
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:463
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:464
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:465
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:467
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:986
+The second covers additional lines: com/fasterxml/jackson/core/JsonParser.java:1007
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:394
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:395
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:396
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:398
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:926
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:927
+The second covers additional lines: com/fasterxml/jackson/core/JsonGenerator.java:928
+
+Processing eclipse@jetty.project
+Cloning...
+/Users/yicheng/research/covDiff/clients/eclipse@jetty.project
+eclipse@jetty.project-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing airsonic@airsonic
+Cloning...
+/Users/yicheng/research/covDiff/clients/airsonic@airsonic
+airsonic@airsonic-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing pinpoint-apm@pinpoint
+Cloning...
+/Users/yicheng/research/covDiff/clients/pinpoint-apm@pinpoint
+pinpoint-apm@pinpoint-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing apache@kylin
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@kylin
+apache@kylin-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing qiujiayu@AutoLoadCache
+Cloning...
+/Users/yicheng/research/covDiff/clients/qiujiayu@AutoLoadCache
+Testing...(Timeout is set to 15m)
+Found        1 exec files
+qiujiayu@AutoLoadCache uses com.fasterxml.jackson.core:jackson-core version 2.10.4
+Version 2.10.4 corresponds to tag jackson-core-2.10.4
+Checking out to tag jackson-core-2.10.4
+Testing...
+libraries/FasterXML@jackson-core/com.fasterxml.jackson.core@jackson-core-jackson-core-2.10.4.exec or clients/qiujiayu@AutoLoadCache/qiujiayu@AutoLoadCache-com.fasterxml.jackson.core@jackson-core.exec not exist. Move to next client
+
+Processing spotify@helios
+Cloning...
+/Users/yicheng/research/covDiff/clients/spotify@helios
+spotify@helios-com.fasterxml.jackson.core@jackson-core.exec file exists OR TestTimeOut OR NoCoverage!
+Found        2 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/spotify@helios/./helios-client/target/jacoco.exec.
+spotify@helios uses com.fasterxml.jackson.core:jackson-core version 2.9.10
+Version 2.9.10 corresponds to tag jackson-core-2.9.10
+Checking out to tag jackson-core-2.9.10
+Testing...
+libraries/FasterXML@jackson-core/com.fasterxml.jackson.core@jackson-core-jackson-core-2.9.10.exec or clients/spotify@helios/spotify@helios-com.fasterxml.jackson.core@jackson-core.exec not exist. Move to next client

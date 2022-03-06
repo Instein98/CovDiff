@@ -1,0 +1,1149 @@
+Start com.fasterxml.jackson.core:jackson-databind
+
+Processing OpenFeign@feign
+Cloning...
+/Users/yicheng/research/covDiff/clients/OpenFeign@feign
+OpenFeign@feign-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing mrniko@netty-socketio
+Cloning...
+/Users/yicheng/research/covDiff/clients/mrniko@netty-socketio
+mrniko@netty-socketio-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing Alluxio@alluxio
+Cloning...
+/Users/yicheng/research/covDiff/clients/Alluxio@alluxio
+Alluxio@alluxio-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        6 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./core/common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./core/client/hdfs/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./core/client/fs/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./shell/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./job/common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./job/client/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/Alluxio@alluxio-com.fasterxml.jackson.core@jackson-databind.exec.
+Alluxio@alluxio-com.fasterxml.jackson.core@jackson-databind.exec is generated successfully!!
+Dependency version resolving failed. Move to the next client
+
+Processing thingsboard@thingsboard
+Cloning...
+/Users/yicheng/research/covDiff/clients/thingsboard@thingsboard
+thingsboard@thingsboard-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing apache@activemq
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@activemq
+apache@activemq-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing eclipse-vertx@vert.x
+Cloning...
+/Users/yicheng/research/covDiff/clients/eclipse-vertx@vert.x
+eclipse-vertx@vert.x-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing spring-attic@spring-mvc-showcase
+Cloning...
+/Users/yicheng/research/covDiff/clients/spring-attic@spring-mvc-showcase
+spring-attic@spring-mvc-showcase-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing scribejava@scribejava
+Cloning...
+/Users/yicheng/research/covDiff/clients/scribejava@scribejava
+scribejava@scribejava-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing OryxProject@oryx
+Cloning...
+/Users/yicheng/research/covDiff/clients/OryxProject@oryx
+OryxProject@oryx-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        9 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./app/oryx-app-api/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./app/oryx-app-mllib/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./app/oryx-app-common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./app/oryx-app-serving/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./app/oryx-app/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./framework/oryx-ml/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./framework/oryx-lambda/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./framework/oryx-common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/OryxProject@oryx/./framework/oryx-lambda-serving/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/OryxProject@oryx/OryxProject@oryx-com.fasterxml.jackson.core@jackson-databind.exec.
+OryxProject@oryx-com.fasterxml.jackson.core@jackson-databind.exec is generated successfully!!
+OryxProject@oryx uses com.fasterxml.jackson.core:jackson-databind version 2.12.4
+Version 2.12.4 corresponds to tag jackson-databind-2.12.4
+Checking out to tag jackson-databind-2.12.4
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/lib.exec.
+[INFO] Analyzing 636 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/client.exec.
+[INFO] Analyzing 616 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-databind Client:OryxProject@oryx **********
+The second covers additional lines: com/fasterxml/jackson/databind/AnnotationIntrospector.java:110
+The second covers additional lines: com/fasterxml/jackson/databind/type/PlaceholderForType.java:94
+The second covers additional lines: com/fasterxml/jackson/databind/type/ResolvedRecursiveType.java:45
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:551
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:552
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:594
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:595
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:596
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:696
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:697
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:700
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:706
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:707
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:710
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:354
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:355
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:358
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:364
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:365
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:368
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:407
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:408
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:413
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:414
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:438
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:439
+The second covers additional lines: com/fasterxml/jackson/databind/type/CollectionLikeType.java:264
+The second covers additional lines: com/fasterxml/jackson/databind/deser/Deserializers.java:305
+The second covers additional lines: com/fasterxml/jackson/databind/deser/Deserializers.java:314
+The second covers additional lines: com/fasterxml/jackson/databind/deser/Deserializers.java:334
+The second covers additional lines: com/fasterxml/jackson/databind/type/TypeFactory.java:228
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java:64
+The second covers additional lines: com/fasterxml/jackson/databind/ser/Serializers.java:132
+The second covers additional lines: com/fasterxml/jackson/databind/ser/Serializers.java:107
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StringArrayDeserializer.java:166
+The second covers additional lines: com/fasterxml/jackson/databind/type/MapLikeType.java:299
+The second covers additional lines: com/fasterxml/jackson/databind/type/MapLikeType.java:300
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:244
+The second covers additional lines: com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java:2221
+The second covers additional lines: com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java:2266
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StdDeserializer.java:1284
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StdDeserializer.java:1285
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StdDeserializer.java:1286
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:841
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:1082
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:1083
+
+Processing alibaba@nacos
+Cloning...
+/Users/yicheng/research/covDiff/clients/alibaba@nacos
+alibaba@nacos-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found       11 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./core/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./plugin-default-impl/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./auth/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./plugin/auth/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./consistency/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./sys/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./address/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./api/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./client/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@nacos/./console/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/alibaba@nacos/alibaba@nacos-com.fasterxml.jackson.core@jackson-databind.exec.
+alibaba@nacos-com.fasterxml.jackson.core@jackson-databind.exec is generated successfully!!
+alibaba@nacos uses com.fasterxml.jackson.core:jackson-databind version 2.12.2
+Version 2.12.2 corresponds to tag jackson-databind-2.12.2
+Checking out to tag jackson-databind-2.12.2
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/lib.exec.
+[INFO] Analyzing 636 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/client.exec.
+[INFO] Analyzing 616 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-databind Client:alibaba@nacos **********
+The second covers additional lines: com/fasterxml/jackson/databind/node/ContainerNode.java:40
+The second covers additional lines: com/fasterxml/jackson/databind/node/ObjectNode.java:734
+The second covers additional lines: com/fasterxml/jackson/databind/type/TypeFactory.java:1642
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/AtomicBooleanDeserializer.java:25
+The second covers additional lines: com/fasterxml/jackson/databind/type/TypeBindings.java:301
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotatedCreatorCollector.java:91
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:4757
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3350
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3600
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3601
+
+Processing apache@hudi
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@hudi
+apache@hudi-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        5 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@hudi/./hudi-aws/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@hudi/./hudi-hadoop-mr/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@hudi/./hudi-timeline-service/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@hudi/./hudi-common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@hudi/./hudi-client/hudi-client-common/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/apache@hudi/apache@hudi-com.fasterxml.jackson.core@jackson-databind.exec.
+apache@hudi-com.fasterxml.jackson.core@jackson-databind.exec is generated successfully!!
+apache@hudi uses com.fasterxml.jackson.core:jackson-databind version 2.6.7.3
+Version 2.6.7.3 corresponds to tag jackson-databind-2.6.7.3
+Checking out to tag jackson-databind-2.6.7.3
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/lib.exec.
+[INFO] Analyzing 635 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/client.exec.
+[INFO] Analyzing 493 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-databind Client:apache@hudi **********
+The second covers additional lines: com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java:79
+The second covers additional lines: com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java:80
+The second covers additional lines: com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java:81
+The second covers additional lines: com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java:85
+The second covers additional lines: com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java:86
+The second covers additional lines: com/fasterxml/jackson/databind/DeserializationContext.java:565
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1067
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1068
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1080
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1081
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1100
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1101
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:683
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:686
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:688
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1722
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1723
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1724
+The second covers additional lines: com/fasterxml/jackson/databind/ser/std/MapSerializer.java:553
+The second covers additional lines: com/fasterxml/jackson/databind/ser/std/MapSerializer.java:554
+The second covers additional lines: com/fasterxml/jackson/databind/util/CompactStringObjectMap.java:86
+The second covers additional lines: com/fasterxml/jackson/databind/util/CompactStringObjectMap.java:87
+The second covers additional lines: com/fasterxml/jackson/databind/util/CompactStringObjectMap.java:88
+The second covers additional lines: com/fasterxml/jackson/databind/util/CompactStringObjectMap.java:91
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:2679
+
+Processing luxiaoxun@NettyRpc
+Cloning...
+/Users/yicheng/research/covDiff/clients/luxiaoxun@NettyRpc
+luxiaoxun@NettyRpc-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing wildfly@wildfly
+Cloning...
+/Users/yicheng/research/covDiff/clients/wildfly@wildfly
+wildfly@wildfly-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing Qihoo360@Quicksql
+Cloning...
+/Users/yicheng/research/covDiff/clients/Qihoo360@Quicksql
+Qihoo360@Quicksql-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing jeremylong@DependencyCheck
+Cloning...
+/Users/yicheng/research/covDiff/clients/jeremylong@DependencyCheck
+Testing...(Timeout is set to 15m)
+Found        1 exec files
+jeremylong@DependencyCheck uses com.fasterxml.jackson.core:jackson-databind version 2.13.1
+Version 2.13.1 corresponds to tag jackson-databind-2.13.1
+Checking out to tag jackson-databind-2.13.1
+Testing...
+libraries/FasterXML@jackson-databind/com.fasterxml.jackson.core@jackson-databind-jackson-databind-2.13.1.exec or clients/jeremylong@DependencyCheck/jeremylong@DependencyCheck-com.fasterxml.jackson.core@jackson-databind.exec not exist. Move to next client
+
+Processing spotify@docker-maven-plugin
+Cloning...
+/Users/yicheng/research/covDiff/clients/spotify@docker-maven-plugin
+spotify@docker-maven-plugin-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing dromara@raincat
+Cloning...
+/Users/yicheng/research/covDiff/clients/dromara@raincat
+dromara@raincat-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing knowm@XChange
+Cloning...
+/Users/yicheng/research/covDiff/clients/knowm@XChange
+knowm@XChange-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found       97 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-openexchangerates/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinjar/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-koineks/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-btcc/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-truefx/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-independentreserve/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitflyer/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-hitbtc/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitbay/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitcoinaverage/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-binance/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-paribu/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinmarketcap/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-lgo/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-cobinhood/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-cryptofacilities/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-quoine/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-latoken/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-livecoin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-core/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-kraken/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-gateio/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-simulated/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinbase/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinmate/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-btctrade/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-serum/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-coinjar/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-deribit/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinegg/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitfinex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-bitmex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-dvchain/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-ccex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bity/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-lakebtc/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitstamp/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-okex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-itbit/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-okcoin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-core/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-ftx/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-binance/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bithumb/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-poloniex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitcoinium/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-mercadobitcoin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bankera/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinfloor/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-dsx/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-okcoin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-ascendex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-kuna/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-globitex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bibox/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitcointoyou/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-gateio/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-gemini/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-kraken/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-yobit/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-cryptopia/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-gemini-v2/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-fcoin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-btcturk/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coindeal/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitcoinde/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitmex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinbasepro/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-upbit/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-bitstamp/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coindirect/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-coinbasepro/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-cexio/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coingi/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-coinmate/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-enigma/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bleutrade/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-paymium/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-bitfinex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-lgo/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-tradeogre/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-koinim/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinone/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-lykke/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-coinex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitz/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-dydx/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bittrex/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-therock/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-ripple/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-cexio/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-cryptowatch/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-btcmarkets/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-blockchain/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-zaif/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-stream-hitbtc/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/knowm@XChange/./xchange-bitcoincore/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/knowm@XChange/knowm@XChange-com.fasterxml.jackson.core@jackson-databind.exec.
+knowm@XChange-com.fasterxml.jackson.core@jackson-databind.exec is generated successfully!!
+knowm@XChange uses com.fasterxml.jackson.core:jackson-databind version 2.13.1
+Version 2.13.1 corresponds to tag jackson-databind-2.13.1
+Checking out to tag jackson-databind-2.13.1
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/lib.exec.
+[INFO] Analyzing 639 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/client.exec.
+[INFO] Analyzing 624 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-databind Client:knowm@XChange **********
+The second covers additional lines: com/fasterxml/jackson/databind/SerializationConfig.java:752
+The second covers additional lines: com/fasterxml/jackson/databind/SerializationConfig.java:753
+The second covers additional lines: com/fasterxml/jackson/databind/SerializationConfig.java:754
+The second covers additional lines: com/fasterxml/jackson/databind/JsonMappingException.java:517
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/ThrowableDeserializer.java:132
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/ThrowableDeserializer.java:124
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/FactoryBasedEnumDeserializer.java:179
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/FactoryBasedEnumDeserializer.java:180
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:280
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:281
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:282
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:283
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:284
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:285
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:413
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:287
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:288
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:290
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:292
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:294
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:295
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:297
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:298
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:302
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:304
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:305
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:308
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:198
+The second covers additional lines: com/fasterxml/jackson/databind/PropertyNamingStrategy.java:204
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StringCollectionDeserializer.java:216
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java:1172
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java:1173
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java:1471
+The second covers additional lines: com/fasterxml/jackson/databind/deser/BuilderBasedDeserializer.java:240
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectReader.java:2120
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectReader.java:2273
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectReader.java:705
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectReader.java:706
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer.java:170
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer.java:171
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer.java:172
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer.java:173
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer.java:175
+The second covers additional lines: com/fasterxml/jackson/databind/node/TreeTraversingParser.java:263
+The second covers additional lines: com/fasterxml/jackson/databind/node/TreeTraversingParser.java:238
+The second covers additional lines: com/fasterxml/jackson/databind/deser/SettableBeanProperty.java:544
+The second covers additional lines: com/fasterxml/jackson/databind/type/TypeFactory.java:988
+The second covers additional lines: com/fasterxml/jackson/databind/type/TypeFactory.java:989
+The second covers additional lines: com/fasterxml/jackson/databind/type/TypeFactory.java:990
+The second covers additional lines: com/fasterxml/jackson/databind/type/TypeFactory.java:1004
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StringArrayDeserializer.java:170
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StringArrayDeserializer.java:171
+The second covers additional lines: com/fasterxml/jackson/databind/deser/BeanDeserializer.java:492
+The second covers additional lines: com/fasterxml/jackson/databind/deser/BeanDeserializer.java:495
+The second covers additional lines: com/fasterxml/jackson/databind/deser/BeanDeserializer.java:535
+The second covers additional lines: com/fasterxml/jackson/databind/deser/BeanDeserializer.java:539
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotatedCreatorCollector.java:91
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/BasicBeanDescription.java:697
+The second covers additional lines: com/fasterxml/jackson/databind/DeserializationConfig.java:794
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StdDeserializer.java:1295
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StdDeserializer.java:1296
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StdDeserializer.java:1297
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StdDeserializer.java:1376
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StdDeserializer.java:1986
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotatedConstructor.java:70
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:669
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:2721
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:2722
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:4829
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3124
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3125
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3559
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3560
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3673
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3674
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3681
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3682
+The second covers additional lines: com/fasterxml/jackson/databind/jsontype/impl/AsWrapperTypeDeserializer.java:45
+
+Processing shopizer-ecommerce@shopizer
+Cloning...
+/Users/yicheng/research/covDiff/clients/shopizer-ecommerce@shopizer
+shopizer-ecommerce@shopizer-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing shopizer-ecommerce@shopizer
+Cloning...
+/Users/yicheng/research/covDiff/clients/shopizer-ecommerce@shopizer
+shopizer-ecommerce@shopizer-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing modelmapper@modelmapper
+Cloning...
+/Users/yicheng/research/covDiff/clients/modelmapper@modelmapper
+modelmapper@modelmapper-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        8 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/./core/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/./extensions/gson/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/./extensions/jooq/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/./extensions/dagger/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/./extensions/guice/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/./extensions/protobuf/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/./extensions/spring/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/./extensions/jackson/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/modelmapper@modelmapper/modelmapper@modelmapper-com.fasterxml.jackson.core@jackson-databind.exec.
+modelmapper@modelmapper-com.fasterxml.jackson.core@jackson-databind.exec is generated successfully!!
+Dependency version resolving failed. Move to the next client
+
+Processing rest-assured@rest-assured
+Cloning...
+/Users/yicheng/research/covDiff/clients/rest-assured@rest-assured
+rest-assured@rest-assured-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing facebookarchive@nifty
+Cloning...
+/Users/yicheng/research/covDiff/clients/facebookarchive@nifty
+facebookarchive@nifty-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing seata@seata-samples
+Cloning...
+/Users/yicheng/research/covDiff/clients/seata@seata-samples
+seata@seata-samples-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing liuyangming@ByteTCC
+Cloning...
+/Users/yicheng/research/covDiff/clients/liuyangming@ByteTCC
+liuyangming@ByteTCC-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing apache@systemds
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@systemds
+apache@systemds-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing qunarcorp@bistoury
+Cloning...
+/Users/yicheng/research/covDiff/clients/qunarcorp@bistoury
+qunarcorp@bistoury-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        8 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/./bistoury-ui/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/./bistoury-instrument-client/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/./bistoury-agent-common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/./bistoury-remoting/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/./bistoury-agent-task/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/./bistoury-proxy/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/./bistoury-commands/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/./bistoury-decompiler-fernflower/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/qunarcorp@bistoury/qunarcorp@bistoury-com.fasterxml.jackson.core@jackson-databind.exec.
+qunarcorp@bistoury-com.fasterxml.jackson.core@jackson-databind.exec is generated successfully!!
+qunarcorp@bistoury uses com.fasterxml.jackson.core:jackson-databind version 2.9.2
+Version 2.9.2 corresponds to tag jackson-databind-2.9.2
+Checking out to tag jackson-databind-2.9.2
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/lib.exec.
+[INFO] Analyzing 638 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/client.exec.
+[INFO] Analyzing 542 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-databind Client:qunarcorp@bistoury **********
+The first coverage subsumes the second.
+
+Processing apache@dolphinscheduler
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@dolphinscheduler
+apache@dolphinscheduler-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found       35 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-zookeeper/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-server/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-script/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-pagerduty/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-http/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-feishu/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-dingtalk/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-email/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-slack/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-telegram/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-wechat/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-webexteams/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-server/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-hive/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-oracle/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-mysql/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-clickhouse/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-postgresql/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-db2/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-api/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-sqlserver/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-dao/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-log-server/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-task-plugin/dolphinscheduler-task-emr/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-task-plugin/dolphinscheduler-task-pigeon/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-task-plugin/dolphinscheduler-task-dataquality/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-task-plugin/dolphinscheduler-task-python/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-task-plugin/dolphinscheduler-task-api/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-data-quality/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-worker/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-api/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-spi/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-remote/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-service/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/apache@dolphinscheduler-com.fasterxml.jackson.core@jackson-databind.exec.
+apache@dolphinscheduler-com.fasterxml.jackson.core@jackson-databind.exec is generated successfully!!
+apache@dolphinscheduler uses com.fasterxml.jackson.core:jackson-databind version 2.10.5
+Version 2.10.5 corresponds to tag jackson-databind-2.10.5
+Checking out to tag jackson-databind-2.10.5
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/lib.exec.
+[INFO] Analyzing 638 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/client.exec.
+[WARN] Some classes do not match with execution data.
+[WARN] For report generation the same class files must be used as at runtime.
+[WARN] Execution data for class com/fasterxml/jackson/databind/cfg/PackageVersion does not match.
+[INFO] Analyzing 578 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-databind Client:apache@dolphinscheduler **********
+The second covers additional lines: com/fasterxml/jackson/databind/deser/ValueInstantiator.java:262
+The second covers additional lines: com/fasterxml/jackson/databind/deser/ValueInstantiator.java:264
+The second covers additional lines: com/fasterxml/jackson/databind/type/ReferenceType.java:49
+The second covers additional lines: com/fasterxml/jackson/databind/type/ReferenceType.java:50
+The second covers additional lines: com/fasterxml/jackson/databind/type/ReferenceType.java:52
+The second covers additional lines: com/fasterxml/jackson/databind/type/ReferenceType.java:53
+The second covers additional lines: com/fasterxml/jackson/databind/type/ReferenceType.java:65
+The second covers additional lines: com/fasterxml/jackson/databind/type/ReferenceType.java:70
+The second covers additional lines: com/fasterxml/jackson/databind/type/ReferenceType.java:71
+The second covers additional lines: com/fasterxml/jackson/databind/AnnotationIntrospector.java:648
+The second covers additional lines: com/fasterxml/jackson/databind/DeserializationContext.java:1030
+The second covers additional lines: com/fasterxml/jackson/databind/DeserializationContext.java:424
+The second covers additional lines: com/fasterxml/jackson/databind/type/PlaceholderForType.java:94
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:780
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:783
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:785
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1245
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1246
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1327
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1328
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StringCollectionDeserializer.java:207
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:529
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:530
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:572
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:573
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:574
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:614
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:615
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:616
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:668
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:669
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:672
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:247
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:248
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:249
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:251
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:332
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:333
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:336
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:342
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:343
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:346
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:352
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:353
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:356
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:395
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:396
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:401
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:402
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:407
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:408
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:426
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:427
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java:502
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java:503
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java:506
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java:428
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java:490
+The second covers additional lines: com/fasterxml/jackson/databind/deser/BuilderBasedDeserializer.java:403
+The second covers additional lines: com/fasterxml/jackson/databind/deser/BuilderBasedDeserializer.java:404
+The second covers additional lines: com/fasterxml/jackson/databind/deser/BuilderBasedDeserializer.java:406
+The second covers additional lines: com/fasterxml/jackson/databind/deser/BuilderBasedDeserializer.java:407
+The second covers additional lines: com/fasterxml/jackson/databind/deser/BuilderBasedDeserializer.java:419
+The second covers additional lines: com/fasterxml/jackson/databind/deser/BuilderBasedDeserializer.java:423
+The second covers additional lines: com/fasterxml/jackson/databind/deser/DeserializerCache.java:189
+The second covers additional lines: com/fasterxml/jackson/databind/deser/DeserializerCache.java:190
+The second covers additional lines: com/fasterxml/jackson/databind/deser/DeserializerCache.java:191
+The second covers additional lines: com/fasterxml/jackson/databind/deser/DeserializerCache.java:193
+The second covers additional lines: com/fasterxml/jackson/databind/deser/Deserializers.java:276
+The second covers additional lines: com/fasterxml/jackson/databind/deser/Deserializers.java:302
+The second covers additional lines: com/fasterxml/jackson/databind/type/SimpleType.java:48
+The second covers additional lines: com/fasterxml/jackson/databind/type/SimpleType.java:49
+The second covers additional lines: com/fasterxml/jackson/databind/ser/Serializers.java:116
+The second covers additional lines: com/fasterxml/jackson/databind/ser/Serializers.java:132
+The second covers additional lines: com/fasterxml/jackson/databind/ser/Serializers.java:149
+The second covers additional lines: com/fasterxml/jackson/databind/ser/Serializers.java:107
+The second covers additional lines: com/fasterxml/jackson/databind/SerializerProvider.java:1426
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/BeanPropertyDefinition.java:143
+The second covers additional lines: com/fasterxml/jackson/databind/deser/impl/MethodProperty.java:153
+The second covers additional lines: com/fasterxml/jackson/databind/deser/impl/MethodProperty.java:156
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StdDeserializer.java:582
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StdDeserializer.java:605
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StdDeserializer.java:606
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StdDeserializer.java:607
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StdDeserializer.java:631
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3016
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3051
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3052
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3266
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3267
+
+Processing didi@LogiKM
+Cloning...
+/Users/yicheng/research/covDiff/clients/didi@LogiKM
+didi@LogiKM-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing spring-projects@spring-data-elasticsearch
+Cloning...
+/Users/yicheng/research/covDiff/clients/spring-projects@spring-data-elasticsearch
+spring-projects@spring-data-elasticsearch-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing dearbinge@dubbo-spring-boot-mybatis-redis
+Cloning...
+/Users/yicheng/research/covDiff/clients/dearbinge@dubbo-spring-boot-mybatis-redis
+dearbinge@dubbo-spring-boot-mybatis-redis-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing abel533@MyBatis-Spring-Boot
+Cloning...
+/Users/yicheng/research/covDiff/clients/abel533@MyBatis-Spring-Boot
+abel533@MyBatis-Spring-Boot-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing apache@curator
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@curator
+apache@curator-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        4 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@curator/./curator-client/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@curator/./curator-test/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@curator/./curator-framework/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@curator/./curator-recipes/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/apache@curator/apache@curator-com.fasterxml.jackson.core@jackson-databind.exec.
+apache@curator-com.fasterxml.jackson.core@jackson-databind.exec is generated successfully!!
+Dependency version resolving failed. Move to the next client
+
+Processing confluentinc@kafka-streams-examples
+Cloning...
+/Users/yicheng/research/covDiff/clients/confluentinc@kafka-streams-examples
+confluentinc@kafka-streams-examples-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        1 exec files
+confluentinc@kafka-streams-examples-com.fasterxml.jackson.core@jackson-databind.exec is generated successfully!!
+confluentinc@kafka-streams-examples uses com.fasterxml.jackson.core:jackson-databind version 2.12.3
+Version 2.12.3 corresponds to tag jackson-databind-2.12.3
+Checking out to tag jackson-databind-2.12.3
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/lib.exec.
+[INFO] Analyzing 637 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/client.exec.
+[INFO] Analyzing 616 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-databind Client:confluentinc@kafka-streams-examples **********
+The second covers additional lines: com/fasterxml/jackson/databind/AnnotationIntrospector.java:110
+The second covers additional lines: com/fasterxml/jackson/databind/AnnotationIntrospector.java:1235
+The second covers additional lines: com/fasterxml/jackson/databind/type/ResolvedRecursiveType.java:45
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:513
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:545
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:546
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:588
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:589
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:590
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:600
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:639
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:640
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:641
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:647
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:648
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:649
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:653
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:654
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:700
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:701
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:704
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:717
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:718
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:253
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:254
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:255
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:257
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:782
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:348
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:349
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:352
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:358
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:359
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:362
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:401
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:402
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:407
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:408
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:413
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:414
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:432
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:433
+The second covers additional lines: com/fasterxml/jackson/databind/deser/DeserializerCache.java:232
+The second covers additional lines: com/fasterxml/jackson/databind/deser/Deserializers.java:305
+The second covers additional lines: com/fasterxml/jackson/databind/deser/Deserializers.java:262
+The second covers additional lines: com/fasterxml/jackson/databind/type/TypeFactory.java:228
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java:64
+The second covers additional lines: com/fasterxml/jackson/databind/ser/Serializers.java:132
+The second covers additional lines: com/fasterxml/jackson/databind/ser/Serializers.java:107
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:244
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:841
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:1082
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:1083
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:1178
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:1179
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:1180
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:1181
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3412
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3413
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3592
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3593
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3625
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3626
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3684
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3685
+The second covers additional lines: com/fasterxml/jackson/databind/ser/std/StdDelegatingSerializer.java:189
+The second covers additional lines: com/fasterxml/jackson/databind/ser/std/StdDelegatingSerializer.java:190
+The second covers additional lines: com/fasterxml/jackson/databind/ser/std/StdDelegatingSerializer.java:191
+The second covers additional lines: com/fasterxml/jackson/databind/JsonNode.java:553
+The second covers additional lines: com/fasterxml/jackson/databind/ser/BeanSerializerModifier.java:131
+The second covers additional lines: com/fasterxml/jackson/databind/ser/BeanSerializerModifier.java:163
+
+Processing crossoverJie@SSM
+Cloning...
+/Users/yicheng/research/covDiff/clients/crossoverJie@SSM
+crossoverJie@SSM-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing qunarcorp@qmq
+Cloning...
+/Users/yicheng/research/covDiff/clients/qunarcorp@qmq
+qunarcorp@qmq-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        4 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@qmq/./qmq-common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@qmq/./qmq-delay-server/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@qmq/./qmq-client/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/qunarcorp@qmq/./qmq-server/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/qunarcorp@qmq/qunarcorp@qmq-com.fasterxml.jackson.core@jackson-databind.exec.
+qunarcorp@qmq-com.fasterxml.jackson.core@jackson-databind.exec is generated successfully!!
+Dependency version resolving failed. Move to the next client
+
+Processing apache@iotdb
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@iotdb
+apache@iotdb-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing tonikelope@megabasterd
+Cloning...
+/Users/yicheng/research/covDiff/clients/tonikelope@megabasterd
+tonikelope@megabasterd-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing thinkaurelius@titan
+Cloning...
+/Users/yicheng/research/covDiff/clients/thinkaurelius@titan
+thinkaurelius@titan-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing swagger-api@swagger-core
+Cloning...
+/Users/yicheng/research/covDiff/clients/swagger-api@swagger-core
+swagger-api@swagger-core-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        4 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/swagger-api@swagger-core/./modules/swagger-integration/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/swagger-api@swagger-core/./modules/swagger-jaxrs2/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/swagger-api@swagger-core/./modules/swagger-maven-plugin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/swagger-api@swagger-core/./modules/swagger-core/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/swagger-api@swagger-core/swagger-api@swagger-core-com.fasterxml.jackson.core@jackson-databind.exec.
+swagger-api@swagger-core-com.fasterxml.jackson.core@jackson-databind.exec is generated successfully!!
+swagger-api@swagger-core uses com.fasterxml.jackson.core:jackson-databind version 2.12.1
+Version 2.12.1 corresponds to tag jackson-databind-2.12.1
+Checking out to tag jackson-databind-2.12.1
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/lib.exec.
+[INFO] Analyzing 637 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/client.exec.
+[INFO] Analyzing 616 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-databind Client:swagger-api@swagger-core **********
+The second covers additional lines: com/fasterxml/jackson/databind/SerializationConfig.java:752
+The second covers additional lines: com/fasterxml/jackson/databind/SerializationConfig.java:753
+The second covers additional lines: com/fasterxml/jackson/databind/SerializationConfig.java:754
+The second covers additional lines: com/fasterxml/jackson/databind/deser/ValueInstantiator.java:358
+The second covers additional lines: com/fasterxml/jackson/databind/deser/ValueInstantiator.java:360
+The second covers additional lines: com/fasterxml/jackson/databind/ser/PropertyBuilder.java:208
+The second covers additional lines: com/fasterxml/jackson/databind/JsonMappingException.java:333
+The second covers additional lines: com/fasterxml/jackson/databind/JsonMappingException.java:334
+The second covers additional lines: com/fasterxml/jackson/databind/JsonMappingException.java:335
+The second covers additional lines: com/fasterxml/jackson/databind/JsonMappingException.java:336
+The second covers additional lines: com/fasterxml/jackson/databind/JsonMappingException.java:508
+The second covers additional lines: com/fasterxml/jackson/databind/ser/AnyGetterWriter.java:53
+The second covers additional lines: com/fasterxml/jackson/databind/AnnotationIntrospector.java:1100
+The second covers additional lines: com/fasterxml/jackson/databind/AnnotationIntrospector.java:1210
+The second covers additional lines: com/fasterxml/jackson/databind/AnnotationIntrospector.java:220
+The second covers additional lines: com/fasterxml/jackson/databind/AnnotationIntrospector.java:739
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/DefaultAccessorNamingStrategy.java:91
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/DefaultAccessorNamingStrategy.java:221
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/DefaultAccessorNamingStrategy.java:223
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/DefaultAccessorNamingStrategy.java:239
+The second covers additional lines: com/fasterxml/jackson/databind/DeserializationContext.java:1174
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1323
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1324
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1768
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1771
+The second covers additional lines: com/fasterxml/jackson/databind/util/TokenBuffer.java:1777
+The second covers additional lines: com/fasterxml/jackson/databind/node/ObjectNode.java:197
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StringCollectionDeserializer.java:216
+The second covers additional lines: com/fasterxml/jackson/databind/BeanProperty.java:297
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:518
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:550
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:551
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:593
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:594
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:595
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:605
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:635
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:636
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:637
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:643
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:644
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:645
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:649
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:650
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:656
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:657
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:686
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:687
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:690
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:696
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:697
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:700
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:713
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:714
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:203
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:204
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:205
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:206
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:258
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:259
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:260
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:262
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:778
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:268
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:269
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:270
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:271
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:343
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:344
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:347
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:353
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:354
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:357
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:363
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:364
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:367
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:406
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:407
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:412
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:413
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:418
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:419
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:437
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:438
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:450
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:451
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java:452
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java:315
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java:1225
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java:1233
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java:1239
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectWriter.java:1088
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectWriter.java:1089
+The second covers additional lines: com/fasterxml/jackson/databind/type/TypeFactory.java:837
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotatedParameter.java:134
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/BeanPropertyDefinition.java:143
+The second covers additional lines: com/fasterxml/jackson/databind/ser/DefaultSerializerProvider.java:147
+The second covers additional lines: com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.java:384
+The second covers additional lines: com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.java:355
+The second covers additional lines: com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.java:356
+The second covers additional lines: com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.java:381
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:401
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:244
+The second covers additional lines: com/fasterxml/jackson/databind/ser/std/StdSerializer.java:302
+The second covers additional lines: com/fasterxml/jackson/databind/ser/std/StdSerializer.java:310
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationMap.java:83
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationMap.java:84
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotationMap.java:86
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StdDeserializer.java:1284
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StdDeserializer.java:1285
+The second covers additional lines: com/fasterxml/jackson/databind/deser/std/StdDeserializer.java:1286
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:603
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:853
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3882
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3885
+The second covers additional lines: com/fasterxml/jackson/databind/ser/BeanSerializerModifier.java:131
+The second covers additional lines: com/fasterxml/jackson/databind/ser/BeanSerializerModifier.java:163
+The second covers additional lines: com/fasterxml/jackson/databind/ser/BeanSerializerModifier.java:185
+The second covers additional lines: com/fasterxml/jackson/databind/ser/BeanSerializerModifier.java:123
+The second covers additional lines: com/fasterxml/jackson/databind/introspect/AnnotatedMethodMap.java:32
+
+Processing eclipse@jetty.project
+Cloning...
+/Users/yicheng/research/covDiff/clients/eclipse@jetty.project
+eclipse@jetty.project-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing airsonic@airsonic
+Cloning...
+/Users/yicheng/research/covDiff/clients/airsonic@airsonic
+airsonic@airsonic-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing scobal@seyren
+Cloning...
+/Users/yicheng/research/covDiff/clients/scobal@seyren
+scobal@seyren-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing pinpoint-apm@pinpoint
+Cloning...
+/Users/yicheng/research/covDiff/clients/pinpoint-apm@pinpoint
+pinpoint-apm@pinpoint-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing joelittlejohn@jsonschema2pojo
+Cloning...
+/Users/yicheng/research/covDiff/clients/joelittlejohn@jsonschema2pojo
+joelittlejohn@jsonschema2pojo-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        4 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/joelittlejohn@jsonschema2pojo/./jsonschema2pojo-cli/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/joelittlejohn@jsonschema2pojo/./jsonschema2pojo-core/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/joelittlejohn@jsonschema2pojo/./jsonschema2pojo-maven-plugin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/joelittlejohn@jsonschema2pojo/./jsonschema2pojo-gradle-plugin/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/joelittlejohn@jsonschema2pojo/joelittlejohn@jsonschema2pojo-com.fasterxml.jackson.core@jackson-databind.exec.
+joelittlejohn@jsonschema2pojo-com.fasterxml.jackson.core@jackson-databind.exec is generated successfully!!
+joelittlejohn@jsonschema2pojo uses com.fasterxml.jackson.core:jackson-databind version 2.12.4
+Version 2.12.4 corresponds to tag jackson-databind-2.12.4
+Checking out to tag jackson-databind-2.12.4
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/lib.exec.
+[INFO] Analyzing 637 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/client.exec.
+[INFO] Analyzing 616 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-databind Client:joelittlejohn@jsonschema2pojo **********
+The second covers additional lines: com/fasterxml/jackson/databind/node/ContainerNode.java:40
+The second covers additional lines: com/fasterxml/jackson/databind/node/ObjectNode.java:734
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3090
+The second covers additional lines: com/fasterxml/jackson/databind/ObjectMapper.java:3091
+
+Processing apache@kylin
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@kylin
+apache@kylin-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing qiujiayu@AutoLoadCache
+Cloning...
+/Users/yicheng/research/covDiff/clients/qiujiayu@AutoLoadCache
+Testing...(Timeout is set to 15m)
+Found        1 exec files
+qiujiayu@AutoLoadCache uses com.fasterxml.jackson.core:jackson-databind version 2.10.5.1
+Version 2.10.5.1 corresponds to tag jackson-databind-2.10.5.1
+Checking out to tag jackson-databind-2.10.5.1
+Testing...
+libraries/FasterXML@jackson-databind/com.fasterxml.jackson.core@jackson-databind-jackson-databind-2.10.5.1.exec or clients/qiujiayu@AutoLoadCache/qiujiayu@AutoLoadCache-com.fasterxml.jackson.core@jackson-databind.exec not exist. Move to next client
+
+Processing liyifeng1994@ssm
+Cloning...
+/Users/yicheng/research/covDiff/clients/liyifeng1994@ssm
+liyifeng1994@ssm-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing spotify@helios
+Cloning...
+/Users/yicheng/research/covDiff/clients/spotify@helios
+spotify@helios-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        2 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/spotify@helios/./helios-client/target/jacoco.exec.
+spotify@helios uses com.fasterxml.jackson.core:jackson-databind version 2.9.10
+Version 2.9.10 corresponds to tag jackson-databind-2.9.10
+Checking out to tag jackson-databind-2.9.10
+Testing...
+libraries/FasterXML@jackson-databind/com.fasterxml.jackson.core@jackson-databind-jackson-databind-2.9.10.exec or clients/spotify@helios/spotify@helios-com.fasterxml.jackson.core@jackson-databind.exec not exist. Move to next client
+
+Processing seaswalker@spring-analysis
+Cloning...
+/Users/yicheng/research/covDiff/clients/seaswalker@spring-analysis
+seaswalker@spring-analysis-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing Pay-Group@best-pay-sdk
+Cloning...
+/Users/yicheng/research/covDiff/clients/Pay-Group@best-pay-sdk
+Pay-Group@best-pay-sdk-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing apache@zookeeper
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@zookeeper
+apache@zookeeper-com.fasterxml.jackson.core@jackson-databind.exec file exists OR TestTimeOut OR NoCoverage!
+Found        1 exec files
+Dependency version resolving failed. Move to the next client
+
+Processing paascloud@paascloud-master
+Cloning...
+/Users/yicheng/research/covDiff/clients/paascloud@paascloud-master
+Testing...(Timeout is set to 15m)
+Found        3 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/paascloud@paascloud-master/./paascloud-common/paascloud-common-core/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/paascloud@paascloud-master/./paascloud-provider/paascloud-provider-mdc/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/paascloud@paascloud-master/./paascloud-provider/paascloud-provider-uac/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/paascloud@paascloud-master/paascloud@paascloud-master-com.fasterxml.jackson.core@jackson-databind.exec.
+paascloud@paascloud-master-com.fasterxml.jackson.core@jackson-databind.exec is generated successfully!!
+paascloud@paascloud-master uses com.fasterxml.jackson.core:jackson-databind version 2.8.4
+Version 2.8.4 corresponds to tag jackson-databind-2.8.4
+Checking out to tag jackson-databind-2.8.4
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/lib.exec.
+[INFO] Analyzing 638 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/FasterXML@jackson-databind/comparison/client.exec.
+[INFO] Analyzing 510 classes.
+********** Diff Cov Lib:com.fasterxml.jackson.core@jackson-databind Client:paascloud@paascloud-master **********
+The second covers additional lines: com/fasterxml/jackson/databind/JsonSerializer.java:291

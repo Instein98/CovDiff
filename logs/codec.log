@@ -1,0 +1,647 @@
+Start commons-codec:commons-codec
+
+Processing spring-projects@spring-security-oauth
+Cloning...
+/Users/yicheng/research/covDiff/clients/spring-projects@spring-security-oauth
+spring-projects@spring-security-oauth-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing signalapp@Signal-Server
+Cloning...
+/Users/yicheng/research/covDiff/clients/signalapp@Signal-Server
+signalapp@Signal-Server-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing weibocom@motan
+Cloning...
+/Users/yicheng/research/covDiff/clients/weibocom@motan
+weibocom@motan-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found       13 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/weibocom@motan/./motan-demo/motan-demo-api/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/weibocom@motan/./motan-transport-netty/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/weibocom@motan/./motan-core/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/weibocom@motan/./motan-transport-netty4/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/weibocom@motan/./motan-springsupport/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/weibocom@motan/./motan-extension/serialization-extension/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/weibocom@motan/./motan-extension/filter-extension/filter-opentracing/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/weibocom@motan/./motan-extension/protocol-extension/motan-protocol-yar/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/weibocom@motan/./motan-extension/protocol-extension/motan-protocol-restful/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/weibocom@motan/./motan-registry-zookeeper/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/weibocom@motan/./motan-registry-consul/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/weibocom@motan/./motan-manager/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/weibocom@motan/./motan-registry-weibomesh/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/weibocom@motan/weibocom@motan-commons-codec@commons-codec.exec.
+weibocom@motan-commons-codec@commons-codec.exec is generated successfully!!
+weibocom@motan uses commons-codec:commons-codec version 1.4
+Version 1.4 corresponds to tag CODEC_1_4
+Checking out to tag CODEC_1_4
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/apache@commons-codec/comparison/lib.exec.
+[INFO] Analyzing 74 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/apache@commons-codec/comparison/client.exec.
+[INFO] Analyzing 24 classes.
+********** Diff Cov Lib:commons-codec@commons-codec Client:weibocom@motan **********
+The first coverage subsumes the second.
+
+Processing Alluxio@alluxio
+Cloning...
+/Users/yicheng/research/covDiff/clients/Alluxio@alluxio
+Alluxio@alluxio-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        6 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./core/common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./core/client/hdfs/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./core/client/fs/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./shell/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./job/common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/./job/client/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/Alluxio@alluxio/Alluxio@alluxio-commons-codec@commons-codec.exec.
+Alluxio@alluxio-commons-codec@commons-codec.exec is generated successfully!!
+Dependency version resolving failed. Move to the next client
+
+Processing chanjarster@weixin-java-tools
+Cloning...
+/Users/yicheng/research/covDiff/clients/chanjarster@weixin-java-tools
+chanjarster@weixin-java-tools-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        2 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/chanjarster@weixin-java-tools/./weixin-java-cp/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/chanjarster@weixin-java-tools/./weixin-java-common/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/chanjarster@weixin-java-tools/chanjarster@weixin-java-tools-commons-codec@commons-codec.exec.
+chanjarster@weixin-java-tools-commons-codec@commons-codec.exec is generated successfully!!
+chanjarster@weixin-java-tools uses commons-codec:commons-codec version 1.9
+Version 1.9 corresponds to tag 1.9
+Checking out to tag 1.9
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/apache@commons-codec/comparison/lib.exec.
+[INFO] Analyzing 74 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/apache@commons-codec/comparison/client.exec.
+[INFO] Analyzing 74 classes.
+********** Diff Cov Lib:commons-codec@commons-codec Client:chanjarster@weixin-java-tools **********
+The first coverage subsumes the second.
+
+Processing Konloch@bytecode-viewer
+Cloning...
+/Users/yicheng/research/covDiff/clients/Konloch@bytecode-viewer
+Konloch@bytecode-viewer-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing flowable@flowable-engine
+Cloning...
+/Users/yicheng/research/covDiff/clients/flowable@flowable-engine
+flowable@flowable-engine-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found       19 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-form-json-converter/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-cmmn-engine-configurator/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-form-engine-configurator/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-idm-engine/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-engine-common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-app-engine/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-cmmn-converter/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-spring-security/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-dmn-xml-converter/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-job-service/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-case-validation/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-event-registry-json-converter/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-bpmn-converter/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-dmn-engine-configurator/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-form-engine/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-http-common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-dmn-json-converter/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-event-registry/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/./modules/flowable-dmn-engine/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/flowable@flowable-engine/flowable@flowable-engine-commons-codec@commons-codec.exec.
+flowable@flowable-engine-commons-codec@commons-codec.exec is generated successfully!!
+Dependency version resolving failed. Move to the next client
+
+Processing thingsboard@thingsboard
+Cloning...
+/Users/yicheng/research/covDiff/clients/thingsboard@thingsboard
+thingsboard@thingsboard-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing alibaba@canal
+Cloning...
+/Users/yicheng/research/covDiff/clients/alibaba@canal
+alibaba@canal-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found       11 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@canal/./dbsync/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@canal/./driver/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@canal/./parse/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@canal/./sink/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@canal/./meta/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@canal/./server/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@canal/./common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@canal/./instance/spring/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@canal/./filter/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@canal/./client/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/alibaba@canal/./store/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/alibaba@canal/alibaba@canal-commons-codec@commons-codec.exec.
+alibaba@canal-commons-codec@commons-codec.exec is generated successfully!!
+alibaba@canal uses commons-codec:commons-codec version 1.9
+Version 1.9 corresponds to tag 1.9
+Checking out to tag 1.9
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/apache@commons-codec/comparison/lib.exec.
+[INFO] Analyzing 74 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/apache@commons-codec/comparison/client.exec.
+[INFO] Analyzing 74 classes.
+********** Diff Cov Lib:commons-codec@commons-codec Client:alibaba@canal **********
+The first coverage subsumes the second.
+
+Processing bastillion-io@Bastillion
+Cloning...
+/Users/yicheng/research/covDiff/clients/bastillion-io@Bastillion
+bastillion-io@Bastillion-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing wstrange@GoogleAuth
+Cloning...
+/Users/yicheng/research/covDiff/clients/wstrange@GoogleAuth
+wstrange@GoogleAuth-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing wildfly@wildfly
+Cloning...
+/Users/yicheng/research/covDiff/clients/wildfly@wildfly
+wildfly@wildfly-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing jenkinsci@blueocean-plugin
+Cloning...
+/Users/yicheng/research/covDiff/clients/jenkinsci@blueocean-plugin
+jenkinsci@blueocean-plugin-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing jeremylong@DependencyCheck
+Cloning...
+/Users/yicheng/research/covDiff/clients/jeremylong@DependencyCheck
+Testing...(Timeout is set to 15m)
+Found        1 exec files
+jeremylong@DependencyCheck uses commons-codec:commons-codec version 1.15
+Version 1.15 corresponds to tag commons-codec-1.15-RC1
+Checking out to tag commons-codec-1.15-RC1
+Testing...
+libraries/apache@commons-codec/commons-codec@commons-codec-commons-codec-1.15-RC1.exec or clients/jeremylong@DependencyCheck/jeremylong@DependencyCheck-commons-codec@commons-codec.exec not exist. Move to next client
+
+Processing apache@accumulo
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@accumulo
+apache@accumulo-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing hazelcast@hazelcast
+Cloning...
+/Users/yicheng/research/covDiff/clients/hazelcast@hazelcast
+hazelcast@hazelcast-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing facebookarchive@nifty
+Cloning...
+/Users/yicheng/research/covDiff/clients/facebookarchive@nifty
+facebookarchive@nifty-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing dianping@cat
+Cloning...
+/Users/yicheng/research/covDiff/clients/dianping@cat
+dianping@cat-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing zaiyunduan123@springboot-seckill
+Cloning...
+/Users/yicheng/research/covDiff/clients/zaiyunduan123@springboot-seckill
+zaiyunduan123@springboot-seckill-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing zaiyunduan123@springboot-seckill
+Cloning...
+/Users/yicheng/research/covDiff/clients/zaiyunduan123@springboot-seckill
+zaiyunduan123@springboot-seckill-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing apache@dolphinscheduler
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@dolphinscheduler
+apache@dolphinscheduler-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found       35 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-registry/dolphinscheduler-registry-plugins/dolphinscheduler-registry-zookeeper/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-server/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-script/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-pagerduty/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-http/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-feishu/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-dingtalk/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-email/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-slack/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-telegram/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-wechat/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-alert/dolphinscheduler-alert-plugins/dolphinscheduler-alert-webexteams/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-server/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-hive/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-oracle/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-mysql/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-clickhouse/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-postgresql/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-db2/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-api/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-datasource-plugin/dolphinscheduler-datasource-sqlserver/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-dao/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-log-server/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-task-plugin/dolphinscheduler-task-emr/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-task-plugin/dolphinscheduler-task-pigeon/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-task-plugin/dolphinscheduler-task-dataquality/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-task-plugin/dolphinscheduler-task-python/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-task-plugin/dolphinscheduler-task-api/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-data-quality/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-worker/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-api/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-spi/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-remote/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-common/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/./dolphinscheduler-service/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/apache@dolphinscheduler/apache@dolphinscheduler-commons-codec@commons-codec.exec.
+apache@dolphinscheduler-commons-codec@commons-codec.exec is generated successfully!!
+Dependency version resolving failed. Move to the next client
+
+Processing didi@LogiKM
+Cloning...
+/Users/yicheng/research/covDiff/clients/didi@LogiKM
+didi@LogiKM-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing apache@zeppelin
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@zeppelin
+apache@zeppelin-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing ninjaframework@ninja
+Cloning...
+/Users/yicheng/research/covDiff/clients/ninjaframework@ninja
+ninjaframework@ninja-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found       13 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-metrics-graphite/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-standalone/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-maven-plugin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-db-classic/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-servlet-integration-test/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-test-utilities/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-servlet-jpa-blog-integration-test/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-core/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-jaxy-routes/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-metrics/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-postoffice/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-servlet/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/./ninja-websockets-jsr356/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/ninjaframework@ninja/ninjaframework@ninja-commons-codec@commons-codec.exec.
+ninjaframework@ninja-commons-codec@commons-codec.exec is generated successfully!!
+ninjaframework@ninja uses commons-codec:commons-codec version 1.15
+Version 1.15 corresponds to tag commons-codec-1.15-RC1
+Checking out to tag commons-codec-1.15-RC1
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/apache@commons-codec/comparison/lib.exec.
+[WARN] Some classes do not match with execution data.
+[WARN] For report generation the same class files must be used as at runtime.
+[WARN] Execution data for class org/apache/commons/codec/StringEncoderComparator does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Languages$SomeLanguages does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/PhoneticEngine does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/BaseNCodec$Context does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/StringUtils does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/Base32OutputStream does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Languages$1 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Languages$2 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/RuleType does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/PhoneticEngine$RulesApplication does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/NameType does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/MatchRatingApproachEncoder does not match.
+[WARN] Execution data for class org/apache/commons/codec/digest/Sha2Crypt does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$10 does not match.
+[WARN] Execution data for class org/apache/commons/codec/net/BCodec does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$Phoneme does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/ColognePhonetic does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/Base32 does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/Base64InputStream does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/BeiderMorseEncoder does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$PhonemeList does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/BinaryCodec does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/BaseNCodec does not match.
+[WARN] Execution data for class org/apache/commons/codec/net/QCodec does not match.
+[WARN] Execution data for class org/apache/commons/codec/CharEncoding does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/ColognePhonetic$CologneBuffer does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/Hex does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/Metaphone does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/SoundexUtils does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/BaseNCodecOutputStream does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Lang$LangRule does not match.
+[WARN] Execution data for class org/apache/commons/codec/digest/Crypt does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/Base64OutputStream does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/DoubleMetaphone does not match.
+[WARN] Execution data for class org/apache/commons/codec/net/Utils does not match.
+[WARN] Execution data for class org/apache/commons/codec/DecoderException does not match.
+[WARN] Execution data for class org/apache/commons/codec/digest/Md5Crypt does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/Soundex does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/BaseNCodecInputStream does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/AbstractCaverphone does not match.
+[WARN] Execution data for class org/apache/commons/codec/net/QuotedPrintableCodec does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Languages$LanguageSet does not match.
+[WARN] Execution data for class org/apache/commons/codec/digest/B64 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/Caverphone2 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/ColognePhonetic$CologneInputBuffer does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$Phoneme$1 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/PhoneticEngine$PhonemeBuilder does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$9 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Languages does not match.
+[WARN] Execution data for class org/apache/commons/codec/digest/UnixCrypt does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/Caverphone1 does not match.
+[WARN] Execution data for class org/apache/commons/codec/digest/MessageDigestAlgorithms does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$6 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$5 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$8 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$7 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$2 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Lang does not match.
+[WARN] Execution data for class org/apache/commons/codec/EncoderException does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$1 does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/Base64 does not match.
+[WARN] Execution data for class org/apache/commons/codec/net/URLCodec does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$4 does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/Base32InputStream does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/Nysiis does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$3 does not match.
+[WARN] Execution data for class org/apache/commons/codec/digest/DigestUtils does not match.
+[WARN] Execution data for class org/apache/commons/codec/Charsets does not match.
+[WARN] Execution data for class org/apache/commons/codec/net/RFC1522Codec does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/RefinedSoundex does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/ColognePhonetic$CologneOutputBuffer does not match.
+[INFO] Analyzing 74 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/apache@commons-codec/comparison/client.exec.
+[INFO] Analyzing 96 classes.
+********** Diff Cov Lib:commons-codec@commons-codec Client:ninjaframework@ninja **********
+The second covers additional lines: org/apache/commons/codec/net/URLCodec.java:131
+The second covers additional lines: org/apache/commons/codec/net/URLCodec.java:135
+The second covers additional lines: org/apache/commons/codec/net/URLCodec.java:136
+The second covers additional lines: org/apache/commons/codec/net/URLCodec.java:137
+The second covers additional lines: org/apache/commons/codec/net/URLCodec.java:141
+The second covers additional lines: org/apache/commons/codec/net/URLCodec.java:142
+The second covers additional lines: org/apache/commons/codec/net/URLCodec.java:145
+The second covers additional lines: org/apache/commons/codec/net/URLCodec.java:78
+The second covers additional lines: org/apache/commons/codec/net/URLCodec.java:79
+The second covers additional lines: org/apache/commons/codec/net/URLCodec.java:82
+The second covers additional lines: org/apache/commons/codec/net/URLCodec.java:86
+The second covers additional lines: org/apache/commons/codec/net/URLCodec.java:89
+The second covers additional lines: org/apache/commons/codec/net/URLCodec.java:91
+The second covers additional lines: org/apache/commons/codec/net/URLCodec.java:92
+The second covers additional lines: org/apache/commons/codec/binary/BaseNCodec.java:383
+The second covers additional lines: org/apache/commons/codec/binary/BaseNCodec.java:384
+The second covers additional lines: org/apache/commons/codec/binary/BaseNCodec.java:386
+The second covers additional lines: org/apache/commons/codec/binary/BaseNCodec.java:387
+The second covers additional lines: org/apache/commons/codec/binary/BaseNCodec.java:409
+The second covers additional lines: org/apache/commons/codec/binary/BaseNCodec.java:187
+The second covers additional lines: org/apache/commons/codec/binary/BaseNCodec.java:473
+The second covers additional lines: org/apache/commons/codec/binary/Base64.java:772
+The second covers additional lines: org/apache/commons/codec/binary/Base64.java:521
+The second covers additional lines: org/apache/commons/codec/binary/Base64.java:592
+The second covers additional lines: org/apache/commons/codec/binary/Base64.java:659
+The second covers additional lines: org/apache/commons/codec/binary/Base64.java:660
+The second covers additional lines: org/apache/commons/codec/binary/Base64.java:686
+The second covers additional lines: org/apache/commons/codec/binary/Base64.java:697
+The second covers additional lines: org/apache/commons/codec/binary/Base64.java:727
+The second covers additional lines: org/apache/commons/codec/binary/Base64.java:729
+The second covers additional lines: org/apache/commons/codec/binary/Base64.java:743
+The second covers additional lines: org/apache/commons/codec/binary/Base64.java:745
+The second covers additional lines: org/apache/commons/codec/binary/Base64.java:750
+The second covers additional lines: org/apache/commons/codec/binary/Base64.java:495
+The second covers additional lines: org/apache/commons/codec/binary/Base64.java:754
+The second covers additional lines: org/apache/commons/codec/binary/Hex.java:45
+The second covers additional lines: org/apache/commons/codec/binary/Hex.java:57
+The second covers additional lines: org/apache/commons/codec/binary/Hex.java:63
+
+Processing apache@iotdb
+Cloning...
+/Users/yicheng/research/covDiff/clients/apache@iotdb
+apache@iotdb-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing thinkaurelius@titan
+Cloning...
+/Users/yicheng/research/covDiff/clients/thinkaurelius@titan
+thinkaurelius@titan-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing swagger-api@swagger-core
+Cloning...
+/Users/yicheng/research/covDiff/clients/swagger-api@swagger-core
+swagger-api@swagger-core-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        4 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/swagger-api@swagger-core/./modules/swagger-integration/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/swagger-api@swagger-core/./modules/swagger-jaxrs2/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/swagger-api@swagger-core/./modules/swagger-maven-plugin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/swagger-api@swagger-core/./modules/swagger-core/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/swagger-api@swagger-core/swagger-api@swagger-core-commons-codec@commons-codec.exec.
+swagger-api@swagger-core-commons-codec@commons-codec.exec is generated successfully!!
+Dependency version resolving failed. Move to the next client
+
+Processing eclipse@jetty.project
+Cloning...
+/Users/yicheng/research/covDiff/clients/eclipse@jetty.project
+eclipse@jetty.project-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing pinpoint-apm@pinpoint
+Cloning...
+/Users/yicheng/research/covDiff/clients/pinpoint-apm@pinpoint
+pinpoint-apm@pinpoint-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        0 exec files
+NoCoverage! Move to next client...
+
+Processing joelittlejohn@jsonschema2pojo
+Cloning...
+/Users/yicheng/research/covDiff/clients/joelittlejohn@jsonschema2pojo
+joelittlejohn@jsonschema2pojo-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        4 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/joelittlejohn@jsonschema2pojo/./jsonschema2pojo-cli/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/joelittlejohn@jsonschema2pojo/./jsonschema2pojo-core/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/joelittlejohn@jsonschema2pojo/./jsonschema2pojo-maven-plugin/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/joelittlejohn@jsonschema2pojo/./jsonschema2pojo-gradle-plugin/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/joelittlejohn@jsonschema2pojo/joelittlejohn@jsonschema2pojo-commons-codec@commons-codec.exec.
+joelittlejohn@jsonschema2pojo-commons-codec@commons-codec.exec is generated successfully!!
+joelittlejohn@jsonschema2pojo uses commons-codec:commons-codec version 1.15
+Version 1.15 corresponds to tag commons-codec-1.15-RC1
+Checking out to tag commons-codec-1.15-RC1
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/apache@commons-codec/comparison/lib.exec.
+[WARN] Some classes do not match with execution data.
+[WARN] For report generation the same class files must be used as at runtime.
+[WARN] Execution data for class org/apache/commons/codec/StringEncoderComparator does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Languages$SomeLanguages does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/PhoneticEngine does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/BaseNCodec$Context does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/StringUtils does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/Base32OutputStream does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Languages$1 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Languages$2 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/RuleType does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/PhoneticEngine$RulesApplication does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/NameType does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/MatchRatingApproachEncoder does not match.
+[WARN] Execution data for class org/apache/commons/codec/digest/Sha2Crypt does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$10 does not match.
+[WARN] Execution data for class org/apache/commons/codec/net/BCodec does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$Phoneme does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/ColognePhonetic does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/Base32 does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/Base64InputStream does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/BeiderMorseEncoder does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$PhonemeList does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/BinaryCodec does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/BaseNCodec does not match.
+[WARN] Execution data for class org/apache/commons/codec/net/QCodec does not match.
+[WARN] Execution data for class org/apache/commons/codec/CharEncoding does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/ColognePhonetic$CologneBuffer does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/Hex does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/Metaphone does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/SoundexUtils does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/BaseNCodecOutputStream does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Lang$LangRule does not match.
+[WARN] Execution data for class org/apache/commons/codec/digest/Crypt does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/Base64OutputStream does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/DoubleMetaphone does not match.
+[WARN] Execution data for class org/apache/commons/codec/net/Utils does not match.
+[WARN] Execution data for class org/apache/commons/codec/DecoderException does not match.
+[WARN] Execution data for class org/apache/commons/codec/digest/Md5Crypt does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/Soundex does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/BaseNCodecInputStream does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/AbstractCaverphone does not match.
+[WARN] Execution data for class org/apache/commons/codec/net/QuotedPrintableCodec does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Languages$LanguageSet does not match.
+[WARN] Execution data for class org/apache/commons/codec/digest/B64 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/Caverphone2 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/ColognePhonetic$CologneInputBuffer does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$Phoneme$1 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/PhoneticEngine$PhonemeBuilder does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$9 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Languages does not match.
+[WARN] Execution data for class org/apache/commons/codec/digest/UnixCrypt does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/Caverphone1 does not match.
+[WARN] Execution data for class org/apache/commons/codec/digest/MessageDigestAlgorithms does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$6 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$5 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$8 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$7 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$2 does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Lang does not match.
+[WARN] Execution data for class org/apache/commons/codec/EncoderException does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$1 does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/Base64 does not match.
+[WARN] Execution data for class org/apache/commons/codec/net/URLCodec does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$4 does not match.
+[WARN] Execution data for class org/apache/commons/codec/binary/Base32InputStream does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/Nysiis does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule$3 does not match.
+[WARN] Execution data for class org/apache/commons/codec/digest/DigestUtils does not match.
+[WARN] Execution data for class org/apache/commons/codec/Charsets does not match.
+[WARN] Execution data for class org/apache/commons/codec/net/RFC1522Codec does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/bm/Rule does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/RefinedSoundex does not match.
+[WARN] Execution data for class org/apache/commons/codec/language/ColognePhonetic$CologneOutputBuffer does not match.
+[INFO] Analyzing 74 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/apache@commons-codec/comparison/client.exec.
+[INFO] Analyzing 96 classes.
+********** Diff Cov Lib:commons-codec@commons-codec Client:joelittlejohn@jsonschema2pojo **********
+The first coverage subsumes the second.
+
+Processing spotify@helios
+Cloning...
+/Users/yicheng/research/covDiff/clients/spotify@helios
+spotify@helios-commons-codec@commons-codec.exec file exists OR TestTimeOut OR NoCoverage!
+Found        2 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/spotify@helios/./helios-client/target/jacoco.exec.
+spotify@helios uses commons-codec:commons-codec version 1.10
+Version 1.10 corresponds to tag 1.10
+Checking out to tag 1.10
+Testing...
+libraries/apache@commons-codec/commons-codec@commons-codec-1.10.exec or clients/spotify@helios/spotify@helios-commons-codec@commons-codec.exec not exist. Move to next client
+
+Processing wkeyuan@DWSurvey
+Cloning...
+/Users/yicheng/research/covDiff/clients/wkeyuan@DWSurvey
+Testing...(Timeout is set to 15m)
+Found        1 exec files
+wkeyuan@DWSurvey-commons-codec@commons-codec.exec is generated successfully!!
+wkeyuan@DWSurvey uses commons-codec:commons-codec version 1.11
+Version 1.11 corresponds to tag commons-codec-1.11
+Checking out to tag commons-codec-1.11
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/apache@commons-codec/comparison/lib.exec.
+[INFO] Analyzing 86 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/apache@commons-codec/comparison/client.exec.
+[INFO] Analyzing 86 classes.
+********** Diff Cov Lib:commons-codec@commons-codec Client:wkeyuan@DWSurvey **********
+The first coverage subsumes the second.
+
+Processing paascloud@paascloud-master
+Cloning...
+/Users/yicheng/research/covDiff/clients/paascloud@paascloud-master
+Testing...(Timeout is set to 15m)
+Found        3 exec files
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/paascloud@paascloud-master/./paascloud-common/paascloud-common-core/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/paascloud@paascloud-master/./paascloud-provider/paascloud-provider-mdc/target/jacoco.exec.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/clients/paascloud@paascloud-master/./paascloud-provider/paascloud-provider-uac/target/jacoco.exec.
+[INFO] Writing execution data to /Users/yicheng/research/covDiff/clients/paascloud@paascloud-master/paascloud@paascloud-master-commons-codec@commons-codec.exec.
+paascloud@paascloud-master-commons-codec@commons-codec.exec is generated successfully!!
+paascloud@paascloud-master uses commons-codec:commons-codec version 1.10
+Version 1.10 corresponds to tag 1.10
+Checking out to tag 1.10
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/apache@commons-codec/comparison/lib.exec.
+[INFO] Analyzing 85 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/apache@commons-codec/comparison/client.exec.
+[INFO] Analyzing 81 classes.
+********** Diff Cov Lib:commons-codec@commons-codec Client:paascloud@paascloud-master **********
+The first coverage subsumes the second.
+
+Processing frohoff@ysoserial
+Cloning...
+/Users/yicheng/research/covDiff/clients/frohoff@ysoserial
+Testing...(Timeout is set to 15m)
+Found        1 exec files
+frohoff@ysoserial-commons-codec@commons-codec.exec is generated successfully!!
+frohoff@ysoserial uses commons-codec:commons-codec version 1.9
+Version 1.9 corresponds to tag 1.9
+Checking out to tag 1.9
+Testing...
+Start Cov Diff...
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/apache@commons-codec/comparison/lib.exec.
+[INFO] Analyzing 85 classes.
+[INFO] Loading execution data file /Users/yicheng/research/covDiff/libraries/apache@commons-codec/comparison/client.exec.
+[INFO] Analyzing 74 classes.
+********** Diff Cov Lib:commons-codec@commons-codec Client:frohoff@ysoserial **********
+The first coverage subsumes the second.
