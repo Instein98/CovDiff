@@ -1,0 +1,58 @@
+curl -G https://api.github.com/search/code \
+        --data-urlencode "q=import org.apache.ibatis+language:java" \
+        --data-urlencode "page=1" \
+        -H "Accept: application/vnd.github.v3+json" \
+        -H "Authorization: Token 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" > result.log
+
+curl -D header.log "https://api.github.com/search/code?q=import%20org.apache.ibatis+language:java&per_page=100&page=1" \
+        -H "Accept: application/vnd.github.v3+json" \
+        -H "Authorization: Token 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" > result.log
+
+curl -G https://api.github.com/search/code \
+        --data-urlencode "q=import org.apache.ibatis language:java" \
+        --data-urlencode "per_page=100" \
+        --data-urlencode "page=2" \
+        -H "Accept: application/vnd.github.v3+json" \
+        -H "Authorization: Token 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" > result2.log
+
+curl 'https://api.github.com/repos/jasonrudolph/keyboard' -H 'Accept: application/vnd.github.v3+json' -H "Authorization: Token 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" | jq '.stargazers_count'
+
+curl -D header.log "https://api.github.com/search/code?q=\"import+$arg\"+language:java&page=1" \
+        -H "Accept: application/vnd.github.v3+json" \
+        -H "Authorization: Token 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" > result.log
+
+curl -D header.log "https://api.github.com/repos/opure/weather/contents/" \
+        -H "Accept: application/vnd.github.v3+json" \
+        -H "Authorization: Token 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" > result.log
+
+curl -D header.log "https://api.github.com/search/repositories?q=language:java+filename:pom.xml&sort=stars&per_page=100&page=1" \
+        -H "Accept: application/vnd.github.v3+json" \
+        -H "Authorization: Token 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" > result.log
+
+curl "https://api.github.com/repos/$1/contents/" \
+        -H "Accept: application/vnd.github.v3+json" \
+        -H "Authorization: Token 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"
+
+curl "https://api.github.com/repos/opure/weather/contents/pom.xml?ref=master" \
+        -H "Accept: application/vnd.github.v3+json" \
+        -H "Authorization: Token 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"
+
+https://libraries.io/api/maven/commons-io:commons-io/dependents?api_key=80be6c2040e9c5266d6c507bdbbcecdb
+https://libraries.io/api/maven/commons-io:commons-io/dependent_repositories?api_key=80be6c2040e9c5266d6c507bdbbcecdb&per_page=100
+
+- Project Dependencies
+https://libraries.io/api/maven/commons-io:commons-io/2.11.0/dependencies?api_key=80be6c2040e9c5266d6c507bdbbcecdb
+https://libraries.io/api/maven//latest/dependencies?api_key=80be6c2040e9c5266d6c507bdbbcecdb
+
+- Project Dependents
+https://libraries.io/api/maven/commons-io:commons-io/dependents?api_key=80be6c2040e9c5266d6c507bdbbcecdb
+
+- Project Dependent Repositories
+https://libraries.io/api/maven/commons-io:commons-io/dependent_repositories?
+api_key=80be6c2040e9c5266d6c507bdbbcecdb
+
+- Repository Dependencies
+https://libraries.io/api/github/apache/commons-io/dependencies?api_key=80be6c2040e9c5266d6c507bdbbcecdb
+
+- Repository Projects
+https://libraries.io/api/github/apache/commons-io/projects?api_key=80be6c2040e9c5266d6c507bdbbcecdb- 
