@@ -328,3 +328,105 @@
 [submodule "clients/jenkinsci@kubernetes-plugin"]
 	path = clients/jenkinsci@kubernetes-plugin
 	url = git@github.com:jenkinsci/kubernetes-plugin.git
+[submodule "repo/zhegexiaohuozi@JsoupXpath"]
+	path = repo/zhegexiaohuozi@JsoupXpath
+	url = https://github.com/zhegexiaohuozi/JsoupXpath
+[submodule "repo/apache@https:/gitbox.apache.org/repos/asf/commons-io.git"]
+	path = repo/apache@https:/gitbox.apache.org/repos/asf/commons-io.git
+	url = https://gitbox.apache.org/repos/asf/commons-io.git
+[submodule "repo/schemacrawler@SchemaCrawler"]
+	path = repo/schemacrawler@SchemaCrawler
+	url = https://github.com/schemacrawler/SchemaCrawler
+[submodule "repo/rubenlagus@TelegramBots"]
+	path = repo/rubenlagus@TelegramBots
+	url = https://github.com/rubenlagus/TelegramBots
+[submodule "repo/radkovo@Pdf2Dom"]
+	path = repo/radkovo@Pdf2Dom
+	url = https://github.com/radkovo/Pdf2Dom
+[submodule "repo/quarkusio@quarkus"]
+	path = repo/quarkusio@quarkus
+	url = https://github.com/quarkusio/quarkus
+[submodule "repo/openapitools@openapi-generator"]
+	path = repo/openapitools@openapi-generator
+	url = https://github.com/openapitools/openapi-generator
+[submodule "repo/nguyenq@tess4j"]
+	path = repo/nguyenq@tess4j
+	url = https://github.com/nguyenq/tess4j
+[submodule "repo/neo4j@neo4j"]
+	path = repo/neo4j@neo4j
+	url = https://github.com/neo4j/neo4j
+[submodule "repo/microfocus-idol@java-idol-types"]
+	path = repo/microfocus-idol@java-idol-types
+	url = https://github.com/microfocus-idol/java-idol-types
+[submodule "repo/microfocus-idol@java-configuration-impl"]
+	path = repo/microfocus-idol@java-configuration-impl
+	url = https://github.com/microfocus-idol/java-configuration-impl
+[submodule "repo/microfocus-idol@java-aci-api-ng"]
+	path = repo/microfocus-idol@java-aci-api-ng
+	url = https://github.com/microfocus-idol/java-aci-api-ng
+[submodule "repo/marklogic-community@ml-gradle"]
+	path = repo/marklogic-community@ml-gradle
+	url = https://github.com/marklogic-community/ml-gradle
+[submodule "repo/jmeter-maven-plugin@jmeter-maven-plugin"]
+	path = repo/jmeter-maven-plugin@jmeter-maven-plugin
+	url = https://github.com/jmeter-maven-plugin/jmeter-maven-plugin
+[submodule "repo/jknack@handlebars.java"]
+	path = repo/jknack@handlebars.java
+	url = https://github.com/jknack/handlebars.java
+[submodule "repo/jeremylong@DependencyCheck"]
+	path = repo/jeremylong@DependencyCheck
+	url = https://github.com/jeremylong/DependencyCheck
+[submodule "repo/hyperledger@fabric-sdk-java"]
+	path = repo/hyperledger@fabric-sdk-java
+	url = https://github.com/hyperledger/fabric-sdk-java
+[submodule "repo/hazelcast@hazelcast"]
+	path = repo/hazelcast@hazelcast
+	url = https://github.com/hazelcast/hazelcast
+[submodule "repo/hawtio@hawtio"]
+	path = repo/hawtio@hawtio
+	url = https://github.com/hawtio/hawtio
+[submodule "repo/apache@commons-io"]
+	path = repo/apache@commons-io
+	url = https://gitbox.apache.org/repos/asf/commons-io.git
+[submodule "repo/getgauge@gauge-java"]
+	path = repo/getgauge@gauge-java
+	url = https://github.com/getgauge/gauge-java
+[submodule "repo/franzinc@agraph-java-client"]
+	path = repo/franzinc@agraph-java-client
+	url = https://github.com/franzinc/agraph-java-client
+[submodule "repo/flowable@flowable-engine"]
+	path = repo/flowable@flowable-engine
+	url = https://github.com/flowable/flowable-engine
+[submodule "repo/fcrepo-exts@fcrepo-java-client"]
+	path = repo/fcrepo-exts@fcrepo-java-client
+	url = https://github.com/fcrepo-exts/fcrepo-java-client
+[submodule "repo/fcrepo-exts@fcrepo-camel"]
+	path = repo/fcrepo-exts@fcrepo-camel
+	url = https://github.com/fcrepo-exts/fcrepo-camel
+[submodule "repo/eirslett@frontend-maven-plugin"]
+	path = repo/eirslett@frontend-maven-plugin
+	url = https://github.com/eirslett/frontend-maven-plugin
+[submodule "repo/davidmoten@rxjava-jdbc"]
+	path = repo/davidmoten@rxjava-jdbc
+	url = https://github.com/davidmoten/rxjava-jdbc
+[submodule "repo/dadoonet@spring-elasticsearch"]
+	path = repo/dadoonet@spring-elasticsearch
+	url = https://github.com/dadoonet/spring-elasticsearch
+[submodule "repo/codelibs@fess"]
+	path = repo/codelibs@fess
+	url = https://github.com/codelibs/fess
+[submodule "repo/checkstyle@checkstyle"]
+	path = repo/checkstyle@checkstyle
+	url = https://github.com/checkstyle/checkstyle
+[submodule "repo/bitbar@testdroid-api"]
+	path = repo/bitbar@testdroid-api
+	url = https://github.com/bitbar/testdroid-api
+[submodule "repo/assertj@assertj-core"]
+	path = repo/assertj@assertj-core
+	url = https://github.com/assertj/assertj-core
+[submodule "repo/arquillian@arquillian-extension-drone"]
+	path = repo/arquillian@arquillian-extension-drone
+	url = https://github.com/arquillian/arquillian-extension-drone
+[submodule "repo/apache@maven-apache-parent"]
+	path = repo/apache@maven-apache-parent
+	url = https://github.com/apache/maven-apache-parent
