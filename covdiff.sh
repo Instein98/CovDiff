@@ -11,6 +11,11 @@ file_contains_string(){
 # input is a github link of repository, e.g., https://github.com/spring-projects/spring-framework
 # Todo: handle the situations when the repository is redirected: jq: error (at <stdin>:5): Cannot index string with string "name"
 isMavenProj(){
+    if [[ "$1" != *"github.com"* ]];then
+        log "Skip $1"
+        false
+        return
+    fi
     id=${1#"https://github.com/"}
     # echo Checking whether $id is a maven project...
     pomNum=$(curl "https://api.github.com/repos/$id/contents/" \
@@ -50,7 +55,7 @@ getRepoAtNameFromUrl(){
 
 log(){
     time=$(date "+%m/%d %T")
-    echo "[$time] ""$1" >> $covDiffLog
+    echo "[$time] ""$1" | tee -a $covDiffLog
 }
 
 pwd=$(pwd)
@@ -63,7 +68,7 @@ repoDir=repo
 
 # get a lib id
 if [ $# -ne 1 ]; then
-    echo need one argument as library id, e.g., junit:junit
+    log "need one argument as library id, e.g., junit:junit"
     exit 1
 else
     libid=$1
@@ -80,17 +85,17 @@ fi
 
 # find clients that using that lib
 if [ ! -f $libSearchDir/dependents-all ]; then
-    echo Finding the clients using the library...
+    log "Finding the clients using the library..."
     echo -n > $libSearchDir/dependents-all
     for ((i=1; i<page_num+1; i++)); do
         if [ -f $libSearchDir/"dependents-p$i" ];then
             cat "$libSearchDir/dependents-p$i" | jq -r '.[] | "\(.name)@\(.repository_url)@\(.latest_release_number)"' >> $libSearchDir/dependents-all
             continue
         fi
-        echo "Search for $libid dependents page $i..."
+        log "Search for $libid dependents page $i..."
         curl -H "Accept: application/json" -H "Content-Type: application/json" -X GET "https://libraries.io/api/maven/$libid/dependents?api_key=80be6c2040e9c5266d6c507bdbbcecdb&per_page=$per_page&page=$i" > $libSearchDir/"dependents-p$i"  2>/dev/null
         while [[ ! $(cat "$libSearchDir/dependents-p$i" | jq -r '.[] | "\(.name)@\(.repository_url)"') ]]; do
-            echo "No results found, retrying..."
+            log "No results found, retrying..."
             sleep 1
             curl -H "Accept: application/json" -H "Content-Type: application/json" -X GET "https://libraries.io/api/maven/$libid/dependents?api_key=80be6c2040e9c5266d6c507bdbbcecdb&per_page=$per_page&page=$i" > $libSearchDir/"dependents-p$i"   2>/dev/null
         done
@@ -101,7 +106,7 @@ fi
 
 # filter the maven projects
 if [ ! -f $libSearchDir/dependents-maven ]; then
-    echo Finding out the clients using maven...
+    log "Finding out the clients using maven..."
     echo -n > $libSearchDir/dependents-maven
     while read -r dependents; do
         clientid=${dependents%%@*}
@@ -115,7 +120,7 @@ fi
 
 # find out the version clients are using
 if [ ! -f $libSearchDir/dependents-version ]; then
-    echo Finding out the versions the clients are using...
+    log "Finding out the versions the clients are using..."
     echo -n > $libSearchDir/dependents-version
     while read -r dependent; do
         clientid=${dependent%%@*}
@@ -141,7 +146,7 @@ fi
 # vote for the mostly used version
 
 if [ ! -f $libSearchDir/dependents-vote ]; then
-    echo Voting the library version for coverage comparison
+    log "Voting the library version for coverage comparison"
     echo -n > $libSearchDir/dependents-vote
     # sort $libSearchDir/dependents-version | uniq | sort -k2Vr | while read versionUse; do 
     cat $libSearchDir/dependents-version | while read versionUse; do 
@@ -156,7 +161,7 @@ fi
 # choose version and get client list
 targetVersion=$(cat $libSearchDir/dependents-vote | sed -n '1 p' | cut -d' ' -f1)
 if [ ! $targetVersion ]; then
-    echo [ERROR] No targetVersion found. Have to exit...
+    log "[ERROR] No targetVersion found. Have to exit..."
     exit 1
 fi
 grep " $targetVersion " $libSearchDir/dependents-version > $libSearchDir/dependents
@@ -173,10 +178,10 @@ testWithCov(){
     if [ $# -eq 4 ]; then
         checkoutVersion=$4
     fi
-    echo "Testing for coverage: $repoAtId:"
+    log "Testing for coverage: $repoAtId:"
 
     # Clone the project
-    echo "  Cloning..."
+    log "  Cloning..."
     [ ! -d $repoDir/$repoAtId ] && git submodule add $url $repoDir/$repoAtId
 
     cd $repoDir/$repoAtId
@@ -184,31 +189,31 @@ testWithCov(){
         # find the tag
         tagName=$(git tag -l | grep "$checkoutVersion$" | head -n 1)
         if [ ! $tagName ]; then 
-            echo "  Failed to find a tag of version $checkoutVersion..." 
+            log "  Failed to find a tag of version $checkoutVersion..." 
             false
             return
         fi
-        echo "  Checking out to tag $tagName (version $checkoutVersion)"
+        log "  Checking out to tag $tagName (version $checkoutVersion)"
         git checkout tags/$tagName
 
-        echo "  mvn install for $repoAtId..."
+        log "  mvn install for $repoAtId..."
         if [ ! -f "mvninstall-$checkoutVersion.log" ]; then
             timeout -k 10 15m mvn clean install -Dcheckstyle.skip -Drat.skip=true -l "mvninstall-$checkoutVersion.log"
             if [ $? -ne 0 ]; then
-                echo "  mvn install failed for $repoAtId"
+                log "  mvn install failed for $repoAtId"
                 false
                 return 
             else 
-                echo "  mvn install for $repoAtId succeed"
+                log "  mvn install for $repoAtId succeed"
             fi
         else
-            echo "  $repoAtId-$checkoutVersion is already installed"
+            log "  $repoAtId-$checkoutVersion is already installed"
         fi
     fi
 
     # Test the project or return false if it is determined to be timeout or no coverage 
     if [ -f TestTimeOut ] || [ -f NoCoverage ];then
-        echo "  TestTimeOut OR NoCoverage OR TestBuildFail!"
+        log "  TestTimeOut OR NoCoverage!"
         false
         return
     fi
@@ -217,21 +222,21 @@ testWithCov(){
         rm $execName
     fi
     if [ -f $execName ]; then
-        echo "  $execName file found"
+        log "  $execName file found"
     else
-        echo "  Testing...(Timeout is set to 15m)"
+        log "  Testing...(Timeout is set to 15m)"
         timeout -k 10 15m mvn clean org.jacoco:jacoco-maven-plugin:0.8.7:prepare-agent test -Dcheckstyle.skip -Drat.skip=true -l "mvntest.log"
         
         # If test timeout
         if [ $? = "124" ]; then
-            echo "  Test timed out..."
+            log "  Test timed out..."
             touch TestTimeOut
             false
             return
         fi
 
         if file_contains_string mvntest.log "\[INFO\] BUILD FAILURE"; then
-            echo "  Test build fail..."
+            log "  Test build fail..."
             touch TestBuildFail
             false
             return
@@ -242,7 +247,7 @@ testWithCov(){
         if [ $execNum = "1" ]; then
             mv $(find . -name "jacoco.exec") $execName
         elif [ $execNum = "0" ]; then
-            echo "  No jacoco.exec generated after testing..."
+            log "  No jacoco.exec generated after testing..."
             touch NoCoverage
             false
             return
@@ -252,7 +257,7 @@ testWithCov(){
     fi
 
     cd $pwd
-    echo "  Successfully generate coverage information!"
+    log "  Successfully generate coverage information!"
     true
 }
 
@@ -267,7 +272,7 @@ if [ "$libid" = "org.ow2.asm:asm" ];then
 fi
 
 if ! testWithCov "$libAtName" "$url" "$libid-$targetVersion.exec" "$targetVersion"; then
-    echo "Test with cov failed for $libAtName, have to exit..."
+    log "Test with cov failed for $libAtName, have to exit..."
     exit 1
 fi
 
@@ -278,19 +283,19 @@ while read -r record; do
     clientId=$repoAtName
     clientExecName=$clientId.exec
 
-    echo 
+    log ""
     if ! testWithCov "$clientId" "$url" "$clientExecName"; then
         continue
     fi
 
     if [ -f $repoDir/$clientId/$clientExecName ] && [ -f $repoDir/$libAtName/$libid-$targetVersion.exec ]; then
-        echo "Ready for coverage comparison!"
+        log "Ready for coverage comparison!"
     else
-        echo "[ERROR] $repoDir/$clientId/$clientExecName or $repoDir/$libAtName/$libid-$targetVersion.exec not found..."
+        log "[ERROR] $repoDir/$clientId/$clientExecName or $repoDir/$libAtName/$libid-$targetVersion.exec not found..."
         continue
     fi
 
-    echo Start Cov Diff...
+    log "Start Cov Diff..."
     [ ! -d $pwd/$repoDir/$libAtName/comparison ] && mkdir $pwd/$repoDir/$libAtName/comparison
     cd $pwd/$repoDir/$libAtName/comparison
 
@@ -307,13 +312,9 @@ while read -r record; do
     cp $pwd/$repoDir/$clientId/jacoco-$clientId-$libid.xml client.xml
     cp $pwd/report.dtd .
     diffResult=$(java -jar -Djavax.xml.accessExternalDTD=all $pwd/covdiff.jar lib.xml client.xml)
-    echo "********** Diff Cov Lib:$libAtName Client:$clientId **********"
-    echo "$diffResult"
     log "********** Diff Cov Lib:$libAtName Client:$clientId **********"
     log "$diffResult"
-    log ""
     
 done < $libSearchDir/dependents
 
-echo DONE
 log "DONE"
