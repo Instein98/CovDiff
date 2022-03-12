@@ -31,9 +31,9 @@ fixRepoUrl(){
 }
 
 getLibRepoUrl(){
-    url=$(curl -H "Accept: application/json" -H "Content-Type: application/json" -X GET "https://libraries.io/api/maven/commons-io:commons-io?api_key=80be6c2040e9c5266d6c507bdbbcecdb" 2>/dev/null | jq -r '.repository_url')
+    url=$(curl -H "Accept: application/json" -H "Content-Type: application/json" -X GET "https://libraries.io/api/maven/$libid?api_key=80be6c2040e9c5266d6c507bdbbcecdb" 2>/dev/null | jq -r '.repository_url')
     while [ ! $url ]; do
-        url=$(curl -H "Accept: application/json" -H "Content-Type: application/json" -X GET "https://libraries.io/api/maven/commons-io:commons-io?api_key=80be6c2040e9c5266d6c507bdbbcecdb" 2>/dev/null | jq -r '.repository_url')
+        url=$(curl -H "Accept: application/json" -H "Content-Type: application/json" -X GET "https://libraries.io/api/maven/$libid?api_key=80be6c2040e9c5266d6c507bdbbcecdb" 2>/dev/null | jq -r '.repository_url')
     done
     fixRepoUrl
 }
@@ -130,7 +130,7 @@ if [ ! -f $libSearchDir/dependents-version ]; then
         done
         requireVersion=$(echo "$result" | jq -r ".dependencies[] | select(.name==\"$libid\")|.requirements" | grep -v '\$')
         # Retry later
-        if [ $requireVersion ]; then
+        if [ "$requireVersion" ]; then
             echo "$clientid $requireVersion $clientRepo" >> $libSearchDir/dependents-version
         fi
     done < $libSearchDir/dependents-maven
@@ -147,7 +147,7 @@ if [ ! -f $libSearchDir/dependents-vote ]; then
     cat $libSearchDir/dependents-version | while read versionUse; do 
         version=$(echo $versionUse | cut -d' ' -f2)
         if ! file_contains_string $libSearchDir/dependents-vote "$version "; then
-            echo "$version $(grep -c " $version " $libSearchDir/dependents-version)" >> $libSearchDir/dependents-vote
+            echo "$version $(grep " $version " $libSearchDir/dependents-version | sort -u -k3 | wc -l | xargs)" >> $libSearchDir/dependents-vote
         fi
     done
     sort -k2rn -o $libSearchDir/dependents-vote $libSearchDir/dependents-vote
@@ -205,12 +205,18 @@ testWithCov(){
             echo "  $repoAtId-$checkoutVersion is already installed"
         fi
     fi
+
     # Test the project or return false if it is determined to be timeout or no coverage 
     if [ -f TestTimeOut ] || [ -f NoCoverage ];then
-        echo "  TestTimeOut OR NoCoverage!"
+        echo "  TestTimeOut OR NoCoverage OR TestBuildFail!"
         false
         return
-    elif [ -f $execName ]; then
+    fi
+    if [ -f mvntest.log ] && file_contains_string mvntest.log "\[INFO\] BUILD FAILURE"; then
+        rm -rf jacoco-*
+        rm $execName
+    fi
+    if [ -f $execName ]; then
         echo "  $execName file found"
     else
         echo "  Testing...(Timeout is set to 15m)"
@@ -220,6 +226,13 @@ testWithCov(){
         if [ $? = "124" ]; then
             echo "  Test timed out..."
             touch TestTimeOut
+            false
+            return
+        fi
+
+        if file_contains_string mvntest.log "\[INFO\] BUILD FAILURE"; then
+            echo "  Test build fail..."
+            touch TestBuildFail
             false
             return
         fi
@@ -247,6 +260,12 @@ testWithCov(){
 getLibRepoUrl  # url <- lib url
 getRepoAtNameFromUrl  # repoAtName <- lib name with @
 libAtName=$repoAtName
+
+if [ "$libid" = "org.ow2.asm:asm" ];then
+    libAtName=asm@asm
+    url="https://gitlab.ow2.org/asm/asm.git"
+fi
+
 if ! testWithCov "$libAtName" "$url" "$libid-$targetVersion.exec" "$targetVersion"; then
     echo "Test with cov failed for $libAtName, have to exit..."
     exit 1
@@ -257,7 +276,7 @@ while read -r record; do
     url=${record##* }
     getRepoAtNameFromUrl  # repoAtName <- client name with @
     clientId=$repoAtName
-    clientExecName=${clientId//@/:}@$libid.exec
+    clientExecName=$clientId.exec
 
     echo 
     if ! testWithCov "$clientId" "$url" "$clientExecName"; then
@@ -295,3 +314,6 @@ while read -r record; do
     log ""
     
 done < $libSearchDir/dependents
+
+echo DONE
+log "DONE"
