@@ -182,7 +182,12 @@ testWithCov(){
 
     # Clone the project
     log "  Cloning..."
-    [ ! -d $repoDir/$repoAtId ] && git submodule add $url $repoDir/$repoAtId
+    [ ! -d $repoDir/$repoAtId ] && git submodule add -f $url $repoDir/$repoAtId
+    if [ $? -ne 0 ]; then
+        log "Cloning $url failed. Exiting..."
+        false
+        return
+    fi
 
     cd $repoDir/$repoAtId
     if [ $# -eq 4 ]; then

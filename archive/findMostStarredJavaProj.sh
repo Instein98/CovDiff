@@ -19,7 +19,7 @@ resultDir=searchResults/javaRepoWithPom
 token="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"
 
 for i in {1..10}; do
-    while [ ! -f $resultDir/$i.json ] || file_contains_string $resultDir/$i.json "exceeded a secondary rate limit" || [ `cat "$resultDir/$i.json" | grep \"score\": | wc -l` -lt 95 ]; do
+    while [ ! -f $resultDir/$i.json ] || file_contains_string $resultDir/$i.json "exceeded a secondary rate limit" || [ `cat "$resultDir/$i.json" | grep \"score\": | wc -l` -lt 99 ]; do
         echo searching for the $i page
         curl -D $resultDir/header.log "https://api.github.com/search/repositories?q=language:java&sort=stars&per_page=100&page=$i" \
         -H "Accept: application/vnd.github.v3+json" \
